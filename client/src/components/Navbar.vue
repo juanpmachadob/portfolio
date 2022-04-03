@@ -2,7 +2,7 @@
   <header class="navbar">
     <div class="container navbar-content">
       <div class="navbar-head">
-        <router-link to="/#home" class="logo" @click="menuOpen = false"
+        <router-link to="/" class="logo" @click="menuOpen = false"
           >JUAN PABLO
           <b>MACHADO</b>
         </router-link>

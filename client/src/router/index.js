@@ -31,7 +31,7 @@ const router = createRouter({
         top: 68,
       };
     } else {
-      return { top: 0 };
+      return { behavior: "smooth", top: 0 };
     }
   },
   history: createWebHistory(),
