@@ -86,7 +86,7 @@
   "autonite": {
     "short_description": "CRUD, autenticación, internacionalización, carga e importación de archivos, envío de correos, gráficos, reportes (PDF, Excel)",
     "description": "Autonite fue desarrollado junto con un equipo como proyecto final de mi curso tecnológico en Análisis y Desarrollo de Sistemas de Información. Se trata de una aplicación web desarrollada para el Taller Automotriz Tecniautos Magangué, la cual requería un sistema modularizado que se encargara de gestionar las compras, ventas, inventario y los procesos de gestión humana llevados a cabo dentro del taller.",
-    "image": "project2.jpg",
+    "image": "autonite/main.png",
     "content": [
       {
         "title": "Diseño web responsive",

@@ -6,7 +6,7 @@
       </nav>
       <p class="copyright">
         <b>Copyright &copy;</b> {{ $t("footer.copyright") }} |
-        {{ $t("footer.made-by") }} <b>Juan Pablo machado</b>
+        {{ $t("footer.made-by") }} <b>Juan Pablo Machado</b>
       </p>
     </div>
   </footer>
