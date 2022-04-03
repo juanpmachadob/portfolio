@@ -1,0 +1,163 @@
+{
+  "blog-gamelist": {
+    "short_description": "API, CRUD, JWT, autenticación con Google, carga de imágenes, función 'me gusta' y búsqueda.",
+    "description": "Aplicación web tipo blog para calificar, explorar, añadir y consultar sus juegos favoritos y los de otras personas.",
+    "image": "project4.jpeg",
+    "content": [
+      {
+        "title": "Autenticación con Google, JWT",
+        "description": "Para el acceso a la aplicación opté por Google Auth Library como método de autenticación principal a la aplicación. De igual forma, hice uso de JSON Web Tokens para proveer un segundo método de autenticación a los usuarios que no dispongan de una cuenta de Google."
+      },
+      {
+        "title": "Función 'me gusta'",
+        "description": "Desarrollé mi propia funcionalidad de 'me gustas' para manejar la calificación de cada uno de los juegos añadidos en la aplicación y también disponer de una lista con los juegos gustados por los usuarios."
+      },
+      {
+        "title": "Stack MEVN",
+        "description": "Decidí usar el stack de tecnologías Javascript MEVN (MongoDB, Express, Vue, NodeJS) para lograr un rendimiento que no había conseguido hasta ahora con mis proyectos previamente desarrollados."
+      }
+    ],
+    "information": {
+      "text": "Aplicación web tipo blog para calificar, explorar, añadir y consultar sus juegos favoritos y los de otras personas.",
+      "page": "https://blog-gamelist.herokuapp.com/",
+      "repository": "https://github.com/Ju4npx/blog-gamelist"
+    },
+    "technologies": [
+      {
+        "icon": "fa-solid fa-database",
+        "text": "MongoDB"
+      },
+      {
+        "icon": "fa-brands fa-js",
+        "text": "Express"
+      },
+      {
+        "icon": "fa-brands fa-vuejs",
+        "text": "Vue"
+      },
+      {
+        "icon": "fa-brands fa-node-js",
+        "text": "NodeJS"
+      }
+    ]
+  },
+  "my-unsplash": {
+    "short_description": "API, CRUD, búsqueda y carga de imágenes, firebase.",
+    "description": "Este proyecto se inspiró en un desafío del sitio DevChallenges. El principal objetivo del reto es desarrollar una aplicación que cumpla con las historias de usuario indicadas. https://devchallenges.io/challenges/rYyhwJAxMfES5jNQ9YsP",
+    "image": "project3.png",
+    "content": [
+      {
+        "title": "Carga de imágenes",
+        "description": "Una de las características principales de esta aplicación es la carga y alojamiento de imágenes mediante Firebase Storage. Al momento de añadir una imagen, se puede optar por adjuntar el archivo, el cual será verificado para comprobar que corresponda a una imagen, o, añadir el enlace, que de igual forma será validado."
+      },
+      {
+        "title": "Búsqueda de imágenes",
+        "description": "Debido a que no existía una función exacta para realizar una consulta haciendo uso de '%like%', logré desarrollar una función personalizada para imitar este comportamiento, permitiéndome así, realizar una búsqueda de imágenes por nombre."
+      },
+      {
+        "title": "Firebase",
+        "description": "En esta ocasión, decidí usar Firebase database como motor de base de datos principal para darle un primer vistazo a las bases de datos no relacionales. Mediante el paquete 'kreait/laravel-firebase' realicé la conexión de la BD con mi Backend de Laravel, logrando de esta manera el acceso a datos."
+      }
+    ],
+    "information": {
+      "text": "Clon simple de la aplicación web Unsplash. Carga y alojamiento de imágenes.",
+      "page": "https://my-simple-unsplash.herokuapp.com/",
+      "repository": "https://github.com/Ju4npx/my-unsplash"
+    },
+    "technologies": [
+      {
+        "icon": "fa-brands fa-laravel",
+        "text": "Laravel"
+      },
+      {
+        "icon": "fa-brands fa-vuejs",
+        "text": "Vue"
+      },
+      {
+        "icon": "fa-solid fa-paint-brush",
+        "text": "Vuetify"
+      },
+      {
+        "icon": "fa-solid fa-database",
+        "text": "Firebase"
+      }
+    ]
+  },
+  "autonite": {
+    "short_description": "CRUD, autenticación, internacionalización, carga e importación de archivos, envío de correos, gráficos, reportes (PDF, Excel)",
+    "description": "Autonite fue desarrollado junto con un equipo como proyecto final de mi curso tecnológico en Análisis y Desarrollo de Sistemas de Información. Se trata de una aplicación web desarrollada para el Taller Automotriz Tecniautos Magangué, la cual requería un sistema modularizado que se encargara de gestionar las compras, ventas, inventario y los procesos de gestión humana llevados a cabo dentro del taller.",
+    "image": "project2.jpg",
+    "content": [
+      {
+        "title": "Diseño web responsive",
+        "description": "Fui el responsable de adaptar el diseño de la página para que fuera completamente responsivo, basado en la estrategia mobile first. Permitiendo así que el sitio web se redimensione adecuadamente en una amplia gama de pantallas y dispositivos, tales como ordenadores de escritorio, ordenadores portátiles, dispositivos móviles, tablets, entre otros."
+      },
+      {
+        "title": "Desarrollo web",
+        "description": "Cada parte del desarrollo fue realizada desde 0. En este, se incluyeron procesos como CRUD con base de datos, validación de formularios, internacionalización, envío masivo de correos, autenticación, carga de archivos, importación de datos, generación de reportes (PDF, Excel) y gráficos estadísticos."
+      }
+    ],
+    "information": {
+      "text": "Aplicación web para los procesos de compras, ventas, inventario y gestión humana llevados dentro del Taller Automotriz Tecniautos Magangué hacia el que está dirigido el proyecto.",
+      "images": [
+        "main.png",
+        "services.png",
+        "maps.png",
+        "panel.png",
+        "charts.png",
+        "register.png",
+        "download.png",
+        "delete.png",
+        "undelete.png",
+        "import.png"
+      ]
+    },
+    "technologies": [
+      {
+        "icon": "fa-brands fa-java",
+        "text": "Java"
+      },
+      {
+        "icon": "fa-solid fa-sitemap",
+        "text": "JSF"
+      },
+      {
+        "icon": "fa-brands fa-js",
+        "text": "Javascript"
+      },
+      {
+        "icon": "fa-solid fa-database",
+        "text": "MySQL"
+      }
+    ]
+  },
+  "jumping-planet": {
+    "short_description": "Desarrollo de videojuegos, Unity, C#.",
+    "description": "Jumping Planet es un videojuego indie para android, el cual podría considerarse como mi primer proyecto en el mundo de la programación. Es un juego sencillo en el cual debes usar los satélites para saltar entre planetas y recolectar vida, ya que ésta disminuirá lentamente, todo con el objetivo de llegar a tu nave espacial antes de que tu vida se reduzca completamente.",
+    "image": "project1.jpg",
+    "content": [
+      {
+        "title": "Experiencia de usuario",
+        "description": "Todo el proceso de desarrollo fue pensado inicialmente para lograr una óptima experiencia de usuario, tratando de aprovechar cada una de las mecánicas de forma intuitiva que le permitan al jugador conocer lo que está pasando en todo momento, y aprender a jugar por medio de ayudas gráficas sin tener que recurrir a una explicación por medio de cualquier tipo de texto."
+      },
+      {
+        "title": "Diseño de sprites",
+        "description": "Cada uno de los sprites (texturas) del videojuego, fueron diseñados por mí, de forma tal que fueran consistentes con un estilo animado, amigable y apto para todo el público."
+      }
+    ],
+    "information": {
+      "text": "Videojuego indie 2D casual tipo plataformas para Android.",
+      "page": "https://play.google.com/store/apps/details?id=com.Flameware.JumpingPlanet"
+    },
+    "technologies": [
+      {
+        "icon": "fa-brands fa-unity",
+        "text": "Unity"
+      },
+      {
+        "icon": "fa-solid fa-code",
+        "text": "C#"
+      }
+    ]
+  }
+}
