@@ -21,8 +21,8 @@
           <li>Node.js, Express.js, Vue.js</li>
           <li>MongoDB, MySQL</li>
           <li>Metodologías ágiles, Git</li>
+          <li>Aprendizaje rápido y autodidacta</li>
           <li>Afán de superación</li>
-          <li>Aprendizaje rápido autodidacta</li>
           <li>Atención al detalle</li>
           <li>Capacidad de adaptación</li>
           <li>Comunicación eficaz</li>

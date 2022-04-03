@@ -10,8 +10,17 @@
         <p>
           {{ $t("home.text") }}
         </p>
-        <a href="https://drive.google.com/u/2/uc?id=1KRMIzpcVxVHOgJbOIJg-P-UY5n16RmKv&export=download" target="_blank" class="btn btn-primary">{{ $t("home.download") }}</a>
-        <a href="#contact" class="btn btn-primary">{{ $t("home.contact") }}</a>
+        <div class="home-buttons">
+          <a
+            href="https://drive.google.com/u/2/uc?id=1KRMIzpcVxVHOgJbOIJg-P-UY5n16RmKv&export=download"
+            target="_blank"
+            class="btn btn-primary"
+            >{{ $t("home.download") }}</a
+          >
+          <a href="#contact" class="btn btn-primary">{{
+            $t("home.contact")
+          }}</a>
+        </div>
       </div>
     </div>
   </main>
@@ -19,6 +28,6 @@
 
 <script>
 export default {
-  name: 'Home'
-}
+  name: "Home",
+};
 </script>
