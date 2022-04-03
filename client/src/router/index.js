@@ -30,8 +30,10 @@ const router = createRouter({
         behavior: "smooth",
         top: 68,
       };
-    } else {
+    } else if (to.path == "/") {
       return { behavior: "smooth", top: 0 };
+    } else {
+      return { top: 0 };
     }
   },
   history: createWebHistory(),
