@@ -2,7 +2,7 @@
   <header class="navbar">
     <div class="container navbar-content">
       <div class="navbar-head">
-        <router-link to="/" class="logo" @click="menuOpen = false"
+        <router-link to="/#home" class="logo" @click="menuOpen = false"
           >JUAN PABLO
           <b>MACHADO</b>
         </router-link>
@@ -40,11 +40,11 @@
         class="navigation flex-4"
         v-bind:class="{ 'mobile-menu-active': !menuOpen }"
       >
-        <a class="nav-item" href="#home" @click="menuOpen = false">{{ $t("navigation.home") }}</a>
-        <a class="nav-item" href="#experiences" @click="menuOpen = false">{{ $t("navigation.experiences") }}</a>
-        <a class="nav-item" href="#about" @click="menuOpen = false">{{ $t("navigation.about") }}</a>
-        <a class="nav-item" href="#projects" @click="menuOpen = false">{{ $t("navigation.projects") }}</a>
-        <a class="nav-item" href="#contact" @click="menuOpen = false">{{ $t("navigation.contact") }}</a>
+        <router-link to="/#home" @click="menuOpen = false" class="nav-item">{{ $t("navigation.home") }}</router-link>
+        <router-link to="/#experience" @click="menuOpen = false" class="nav-item">{{ $t("navigation.experiences") }}</router-link>
+        <router-link to="/#about" @click="menuOpen = false" class="nav-item">{{ $t("navigation.about") }}</router-link>
+        <router-link to="/#projects" @click="menuOpen = false" class="nav-item">{{ $t("navigation.projects") }}</router-link>
+        <router-link to="/#contact" @click="menuOpen = false" class="nav-item">{{ $t("navigation.contact") }}</router-link>
         <NavIcons @click="menuOpen = false"/>
       </nav>
     </div>

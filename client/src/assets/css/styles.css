@@ -320,6 +320,10 @@ img.nav-flag {
   margin-bottom: 2rem;
 }
 
+#home, #experience, #about, #projects, #contact{
+  scroll-margin-top: 4rem;
+}
+
 /* Experiences */
 
 .experiences-list {

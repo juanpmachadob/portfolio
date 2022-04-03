@@ -92,9 +92,6 @@ export default {
       this.$router.push({ name: "404" });
     }
   },
-  mounted(){
-    window.scrollTo(0, 0)
-  },
   methods: {
     showImages() {
       const images = this.json.information.images;

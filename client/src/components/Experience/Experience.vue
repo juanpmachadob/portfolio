@@ -1,5 +1,5 @@
 <template>
-  <section id="experiences" class="experiences bg-splash-gray">
+  <section id="experience" class="experiences bg-splash-gray">
     <div class="container">
       <h2 class="separator center">{{ $t("navigation.experiences") }}</h2>
       <p class="center">

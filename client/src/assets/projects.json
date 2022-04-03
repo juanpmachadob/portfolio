@@ -43,7 +43,7 @@
   },
   "my-unsplash": {
     "short_description": "API, CRUD, búsqueda y carga de imágenes, firebase.",
-    "description": "Este proyecto se inspiró en un desafío del sitio DevChallenges. El principal objetivo del reto es desarrollar una aplicación que cumpla con las historias de usuario indicadas. https://devchallenges.io/challenges/rYyhwJAxMfES5jNQ9YsP",
+    "description": "Este proyecto se inspiró en un desafío del sitio DevChallenges. El principal objetivo del reto es desarrollar un clon de la aplicación web Unsplash que permita el alojamiento y la búsqueda de imágenes.",
     "image": "project3.png",
     "content": [
       {
