@@ -12,7 +12,7 @@
         </p>
         <div class="home-buttons">
           <a
-            href="https://drive.google.com/u/2/uc?id=1KRMIzpcVxVHOgJbOIJg-P-UY5n16RmKv&export=download"
+            href="https://drive.google.com/file/d/1KRMIzpcVxVHOgJbOIJg-P-UY5n16RmKv/view"
             target="_blank"
             class="btn btn-primary"
             >{{ $t("home.download") }}</a
