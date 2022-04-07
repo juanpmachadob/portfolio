@@ -2,7 +2,7 @@
   "blog-gamelist": {
     "short_description": "API, CRUD, JWT, autenticación con Google, carga de imágenes, función 'me gusta' y búsqueda.",
     "description": "Aplicación web tipo blog para calificar, explorar, añadir y consultar sus juegos favoritos y los de otras personas.",
-    "image": "project4.jpeg",
+    "image": "project4.jpg",
     "content": [
       {
         "title": "Autenticación con Google, JWT",
@@ -44,7 +44,7 @@
   "my-unsplash": {
     "short_description": "API, CRUD, búsqueda y carga de imágenes, firebase.",
     "description": "Este proyecto se inspiró en un desafío del sitio DevChallenges. El principal objetivo del reto es desarrollar un clon de la aplicación web Unsplash que permita el alojamiento y la búsqueda de imágenes.",
-    "image": "project3.png",
+    "image": "project3.jpg",
     "content": [
       {
         "title": "Carga de imágenes",
@@ -86,7 +86,7 @@
   "autonite": {
     "short_description": "CRUD, autenticación, internacionalización, carga e importación de archivos, envío de correos, gráficos, reportes (PDF, Excel)",
     "description": "Autonite fue desarrollado junto con un equipo como proyecto final de mi curso tecnológico en Análisis y Desarrollo de Sistemas de Información. Se trata de una aplicación web desarrollada para el Taller Automotriz Tecniautos Magangué, la cual requería un sistema modularizado que se encargara de gestionar las compras, ventas, inventario y los procesos de gestión humana llevados a cabo dentro del taller.",
-    "image": "autonite/main.png",
+    "image": "autonite/main.jpg",
     "content": [
       {
         "title": "Diseño web responsive",
@@ -100,16 +100,16 @@
     "information": {
       "text": "Aplicación web para los procesos de compras, ventas, inventario y gestión humana llevados dentro del Taller Automotriz Tecniautos Magangué hacia el que está dirigido el proyecto.",
       "images": [
-        "main.png",
-        "services.png",
-        "maps.png",
-        "panel.png",
-        "charts.png",
-        "register.png",
-        "download.png",
-        "delete.png",
-        "undelete.png",
-        "import.png"
+        "main.jpg",
+        "services.jpg",
+        "maps.jpg",
+        "panel.jpg",
+        "charts.jpg",
+        "register.jpg",
+        "download.jpg",
+        "delete.jpg",
+        "undelete.jpg",
+        "import.jpg"
       ]
     },
     "technologies": [
