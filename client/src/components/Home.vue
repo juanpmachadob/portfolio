@@ -2,7 +2,7 @@
   <main id="home" class="home">
     <div class="container">
       <div>
-        <img src="@/assets/images/personal-image.png" alt="Personal image" />
+        <img src="@/assets/images/personal-image-hero.webp" alt="Personal image" />
       </div>
       <div>
         <span class="subheading">{{ $t("home.subheading.1") }}</span>

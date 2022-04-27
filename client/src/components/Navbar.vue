@@ -10,13 +10,13 @@
           <!-- <a v-if="this.$i18n.locale == 'es'" @click="changeLang('en')"
             ><img
               class="nav-flag"
-              src="@/assets/images/lang/en.png"
+              src="@/assets/images/lang/en.webp"
               alt="Country flag"
           /></a>
           <a v-if="this.$i18n.locale == 'en'" @click="changeLang('es')"
             ><img
               class="nav-flag"
-              src="@/assets/images/lang/es.png"
+              src="@/assets/images/lang/es.webp"
               alt="Country flag"
           /></a> -->
           <span class="nav-switch" @click="toggleTheme()">

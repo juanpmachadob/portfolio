@@ -2,7 +2,7 @@
   <section id="about" class="about">
     <div class="container">
       <div>
-        <img src="@/assets/images/personal-image.jpg" alt="Personal image" />
+        <img src="@/assets/images/personal-image.webp" alt="Personal image" />
       </div>
       <div class="about-desc">
         <h2 class="separator">{{ $t("navigation.about") }}</h2>
