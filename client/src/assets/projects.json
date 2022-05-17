@@ -1,4 +1,106 @@
 {
+  "calendar-app": {
+    "short_description": "MERN, Redux, API, CRUD, JWT.",
+    "description": "Aplicación MERN para gestionar eventos sobre un calendario con operaciones CRUD.",
+    "image": "project7.webp",
+    "content": [
+      {
+        "title": "Autenticación con JWT",
+        "description": "Para el acceso a la aplicación se hace uso de JSON Web Tokens como método de autenticación principal para proveer un sistema seguro a los usuarios. De igual forma para mantener la autenticación, se renueva el token de los usuarios periódicamente mientras hacen uso del aplicativo."
+      },
+      {
+        "title": "Redux",
+        "description": "Se hace uso de Redux para tener un máximo control sobre el flujo de datos y el estado de la aplicación, además de que facilita escalar la aplicación si se llega a requerir en un futuro."
+      },
+      {
+        "title": "Stack MERN",
+        "description": "Se usa el stack de tecnologías Javascript MERN (MongoDB, Express, React, NodeJS), principalmente por su popularidad y eficiencia, por lo que toda la aplicación está construida absolutamente desde cero."
+      }
+    ],
+    "information": {
+      "text": "Aplicación web de calendario para añadir, editar, borrar y listar los eventos suyos y de otras personas. Desarrollada usando el stack MERN.",
+      "page": "https://mern-redux-calendar.herokuapp.com/",
+      "repository": "https://github.com/Ju4npx/mern-calendar"
+    },
+    "technologies": [
+      {
+        "icon": "fa-brands fa-react",
+        "text": "React"
+      },
+      {
+        "icon": "fa-brands fa-js",
+        "text": "Express"
+      },
+      {
+        "icon": "fa-brands fa-node-js",
+        "text": "NodeJS"
+      },
+      {
+        "icon": "fa-solid fa-database",
+        "text": "MongoDB"
+      }
+    ]
+  },
+  "journal-app": {
+    "short_description": "Redux, CRUD, carga de imágenes, autenticación con Google, Facebook o Email.",
+    "description": "Aplicación web para la gestión de notas personales.",
+    "image": "project6.webp",
+    "content": [
+      {
+        "title": "Redux",
+        "description": "Se hace uso de Redux para tener un máximo control sobre el flujo de datos y el estado de la aplicación, además de que facilita escalar la aplicación si se llega a requerir en un futuro."
+      },
+      {
+        "title": "Autenticación con Google, Facebook, Email",
+        "description": "Es posible acceder a la aplicación haciendo uso de una cuenta de Google, Facebook, o bien, mediante nuestro correo electrónico."
+      },
+      {
+        "title": "Firebase",
+        "description": "En cuanto a la base de datos y el backend de la aplicación, se hace uso de firebase para alojar todos los registros e imágenes usados en la misma."
+      }
+    ],
+    "information": {
+      "text": "Aplicación web para listar, añadir, editar, eliminar y subir imágenes de sus notas importantes.",
+      "page": "https://ju4npx.github.io/Journal-App/",
+      "repository": "https://github.com/Ju4npx/Journal-App"
+    },
+    "technologies": [
+      {
+        "icon": "fa-brands fa-react",
+        "text": "React"
+      },
+      {
+        "icon": "fa-brands fa-sass",
+        "text": "SASS"
+      },
+      {
+        "icon": "fa-solid fa-database",
+        "text": "Firebase"
+      }
+    ]
+  },
+  "todo-list": {
+    "short_description": "Frontend, CRUD, Hooks, React reducers",
+    "description": "Aplicación simple para el manejo de una lista de tareas con acciones CRUD locales.",
+    "image": "project5.webp",
+    "content": [
+      {
+        "title": "Hooks, Reducers",
+        "description": "Mediante hooks personalizados y reducers, se controla todo el estado de la lista de tareas, permitiendo un fácil manejo de la misma."
+      }
+    ],
+    "information": {
+      "text": "Aplicación frontend de lista de tareas desarrollada en React utilizando Hooks para añadir, eliminar, editar y completar tareas personalizadas.",
+      "page": "https://ju4npx.github.io/todo-list/",
+      "repository": "https://github.com/Ju4npx/todo-list"
+    },
+    "technologies": [
+      {
+        "icon": "fa-brands fa-react",
+        "text": "React"
+      }
+    ]
+  },
   "blog-gamelist": {
     "short_description": "API, CRUD, JWT, autenticación con Google, carga de imágenes, función 'me gusta' y búsqueda.",
     "description": "Aplicación web tipo blog para calificar, explorar, añadir y consultar sus juegos favoritos y los de otras personas.",

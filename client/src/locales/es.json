@@ -21,13 +21,13 @@
       "company": "Tigo Colombia",
       "duration": "oct. 2021 - actualidad",
       "text1": "Desarrollar y mantener automatizaciones de Python para tareas diarias disminuyendo tiempos de ejecución hasta un 95%.",
-      "text2": "Elaborar consultas SQL en Oracle, BigQuery y Amazon Athena para la extracción de datos específicos.",
-      "text3": "Diseñar tableros automatizados en Tableau y Mixpanel facilitando el análisis de datos.",
-      "text4": "Analizar sets de bases de datos disponiéndolos en la toma de decisiones de la compañía."
+      "text2": "Participar en el desarrollo de un conector de datos web en JavaScript con Node.js para la extracción de datos desde Mixpanel hacia Tableau.",
+      "text3": "Elaborar consultas SQL en Oracle, BigQuery y Amazon Athena para la extracción de datos específicos.",
+      "text4": "Diseñar tableros automatizados en Tableau y Mixpanel facilitando el análisis de datos."
     }
   },
   "about": {
-    "text-1": "Mi nombre es Juan Pablo Machado, soy estudiante tecnológico en análisis y desarrollo de sistemas de información en el SENA, Colombia, y ¡me apasiona bastante la programación!",
+    "text-1": "Mi nombre es Juan Pablo Machado, soy estudiante tecnológico en análisis y desarrollo de sistemas de información en el SENA, Colombia (finalizando), y ¡me apasiona bastante la programación!",
     "text-2": "Durante los últimos 2 años me he desempeñado en el desarrollo de proyectos y diferentes aplicaciones de software con el fin de poner en práctica las habilidades y conocimientos que voy adquiriendo en el paso del tiempo. ",
     "text-3": "Soy una persona proactiva, en continuo estudio, abierto a la adopción de nuevas tecnologías, con capacidad de trabajo en equipo y aprendizaje rápido de manera autodidacta, cualidades que me permiten afrontar cualquier reto y desenvolverme competentemente en el ámbito profesional."
   },

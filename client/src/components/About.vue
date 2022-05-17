@@ -18,7 +18,7 @@
           {{ $t("about.text-3") }}
         </p>
         <ul class="technologies">
-          <li>Node.js, Express.js, Vue.js</li>
+          <li>React, Node.js, Express</li>
           <li>MongoDB, MySQL</li>
           <li>Metodologías ágiles, Git</li>
           <li>Aprendizaje rápido y autodidacta</li>
