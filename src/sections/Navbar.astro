@@ -53,4 +53,16 @@ import { MenuIcon } from "@/icons";
       </div>
     </div>
   </nav>
+  <span class="block h-20 w-full"></span>
 </div>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const navbarToggle = document.querySelector("#menu-toggle");
+    const navbarSticky = document.querySelector("#navbar-sticky");
+    if (!navbarToggle || !navbarSticky) return;
+
+    navbarToggle.addEventListener("click", () => {
+      navbarSticky.classList.toggle("hidden");
+    });
+  });
+</script>
