@@ -1,0 +1,26 @@
+---
+import type { HTMLAttributes } from "astro/types";
+
+interface Props extends HTMLAttributes<"a"> {
+  variant?: "normal" | "gradient";
+  href: string;
+  target?: string;
+}
+
+const { variant = "normal", href, target } = Astro.props;
+---
+
+<a
+  href={href}
+  target={target}
+  class={`${
+    variant === "normal"
+      ? "border-neutral-600 bg-dark text-white hover:brightness-125 active:brightness-110"
+      : variant === "gradient"
+        ? "border-2 border-transparent bg-dark bg-clip-padding text-white before:absolute before:inset-0 before:-z-10 before:rounded-full before:bg-gradient-to-r before:from-primary before:to-secondary hover:bg-transparent active:bg-transparent/25"
+        : ""
+  }
+  flex h-12 select-none items-center justify-center gap-2 text-nowrap rounded-full border px-4 font-bold outline-0 transition-all disabled:cursor-not-allowed disabled:opacity-50`}
+>
+  <slot />
+</a>
