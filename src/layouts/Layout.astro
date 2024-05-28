@@ -71,4 +71,13 @@ const { title } = Astro.props;
     border-radius: 2em;
     border: 0;
   }
+
+  @layer utilities {
+    .text-gradient {
+      display: inline-block;
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+  }
 </style>

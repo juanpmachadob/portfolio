@@ -1,0 +1,96 @@
+---
+import { Button } from "@/components";
+import { CurriculumIcon, EmailIcon, GithubIcon, LinkedinIcon } from "@/icons";
+---
+
+<section id="hero" class="flex px-4 py-16 shadow-inner shadow-black/75">
+  <div class="m-auto grid max-w-6xl grid-cols-2 grid-rows-2 items-center">
+    <h1 class="text-balance text-4xl font-semibold text-light">
+      <span class="text-nowra">Frontend Developer</span>
+      <span
+        class="text-gradient text-nowrap bg-gradient-to-r from-primary to-secondary text-start text-6xl font-bold"
+      >
+        Juan Machado
+      </span>
+      👋
+    </h1>
+    <div class="flex flex-col gap-8">
+      <h2 class="text-balance text-lg text-white/75">
+        Me apasiona el desarrollo de software, por eso me dedico a crear
+        proyectos desafiantes que fomenten mi aprendizaje y crecimiento
+        profesional.
+      </h2>
+
+      <div class="flex flex-col gap-2">
+        <p class="text-lg text-white/75">
+          ¿Tienes un proyecto en mente?
+          <b class="text-white">¡Trabajemos juntos!</b>
+        </p>
+        <ul class="flex gap-4">
+          <li class="relative flex">
+            <Button
+              href="https://drive.google.com/file/d/1KRMIzpcVxVHOgJbOIJg-P-UY5n16RmKv/view?usp=sharing"
+              target="_blank"
+              variant="gradient"
+            >
+              <CurriculumIcon class="size-6 text-white" />
+              Download CV
+            </Button>
+          </li>
+          <li class="flex gap-2">
+            <!-- Email -->
+            <Button
+              href="mailto:juanpmachadob@gmail.com"
+              rel="noopener noreferrer"
+              title="Email"
+            >
+              <EmailIcon class="size-6 text-white" />
+            </Button>
+            <!-- Linkedin -->
+            <Button
+              href="https://www.linkedin.com/in/juanpmachadob/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Linkedin"
+            >
+              <LinkedinIcon class="size-6 text-white" />
+            </Button>
+            <!-- Github -->
+            <Button
+              href="https://github.com/juanpmachadob/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Github"
+            >
+              <GithubIcon class="size-6 text-white" />
+            </Button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      class="relative col-start-2 row-span-2 row-start-1 flex h-0 items-center justify-center"
+    >
+      <figure class="hover:saturate-[115%]">
+        <img
+          alt="Juan Pablo Machado"
+          src="/assets/images/juan-machado-1.webp"
+          class="img-hero w-72"
+        />
+      </figure>
+    </div>
+  </div>
+</section>
+
+<style>
+  #hero {
+    position: relative;
+    min-height: calc(100vh - 80px);
+    overflow: hidden;
+  }
+
+  .img-hero {
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+    mask-image: linear-gradient(to bottom, black 75%, transparent 100%);
+  }
+</style>
