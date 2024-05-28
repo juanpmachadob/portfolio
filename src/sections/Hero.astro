@@ -3,18 +3,27 @@ import { Button } from "@/components";
 import { CurriculumIcon, EmailIcon, GithubIcon, LinkedinIcon } from "@/icons";
 ---
 
-<section id="hero" class="flex px-4 py-16 shadow-inner shadow-black/75">
-  <div class="m-auto grid max-w-6xl grid-cols-2 grid-rows-2 items-center">
-    <h1 class="text-balance text-4xl font-semibold text-light">
-      <span class="text-nowra">Frontend Developer</span>
+<section
+  id="hero"
+  class="flex items-center justify-center px-4 py-16 shadow-inner shadow-black/75"
+>
+  <div
+    class="m-auto grid items-center gap-y-8 md:max-w-6xl md:grid-cols-2 md:grid-rows-2 md:gap-y-0"
+  >
+    <h1
+      class="text-balance text-center text-3xl font-semibold text-light md:text-start md:text-4xl"
+    >
+      <span class="md:text-nowrap">Frontend Developer</span>
       <span
-        class="text-gradient text-nowrap bg-gradient-to-r from-primary to-secondary text-start text-6xl font-bold"
+        class="text-gradient block text-nowrap bg-gradient-to-r from-primary to-secondary text-center text-5xl font-bold md:text-start md:text-6xl"
       >
         Juan Machado
       </span>
       👋
     </h1>
-    <div class="flex flex-col gap-8">
+    <div
+      class="order-2 flex flex-col gap-8 text-center md:order-none md:text-start"
+    >
       <h2 class="text-balance text-lg text-white/75">
         Me apasiona el desarrollo de software, por eso me dedico a crear
         proyectos desafiantes que fomenten mi aprendizaje y crecimiento
@@ -22,11 +31,13 @@ import { CurriculumIcon, EmailIcon, GithubIcon, LinkedinIcon } from "@/icons";
       </h2>
 
       <div class="flex flex-col gap-2">
-        <p class="text-lg text-white/75">
+        <p class="text-pretty text-lg text-white/75">
           ¿Tienes un proyecto en mente?
           <b class="text-white">¡Trabajemos juntos!</b>
         </p>
-        <ul class="flex gap-4">
+        <ul
+          class="flex w-full flex-col items-center justify-center gap-4 md:flex-row md:justify-start"
+        >
           <li class="relative flex">
             <Button
               href="https://drive.google.com/file/d/1KRMIzpcVxVHOgJbOIJg-P-UY5n16RmKv/view?usp=sharing"
@@ -69,7 +80,7 @@ import { CurriculumIcon, EmailIcon, GithubIcon, LinkedinIcon } from "@/icons";
       </div>
     </div>
     <div
-      class="relative col-start-2 row-span-2 row-start-1 flex h-0 items-center justify-center"
+      class="relative flex items-center justify-center md:col-start-2 md:row-span-2 md:row-start-1 md:h-0"
     >
       <figure class="hover:saturate-[115%]">
         <img
