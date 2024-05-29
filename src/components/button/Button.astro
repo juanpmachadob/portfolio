@@ -7,7 +7,7 @@ interface Props extends HTMLAttributes<"a"> {
   target?: string;
 }
 
-const { variant = "normal", href, target } = Astro.props;
+const { variant = "normal", href, target, ...props } = Astro.props;
 ---
 
 <a
@@ -20,7 +20,8 @@ const { variant = "normal", href, target } = Astro.props;
         ? "border-2 border-transparent bg-dark bg-clip-padding text-white before:absolute before:inset-0 before:-z-10 before:rounded-full before:bg-gradient-to-r before:from-primary before:to-secondary hover:bg-transparent active:bg-transparent/25"
         : ""
   }
-  flex h-12 select-none items-center justify-center gap-2 text-nowrap rounded-full border px-4 font-bold outline-0 transition-all disabled:cursor-not-allowed disabled:opacity-50`}
+    flex h-12 select-none items-center justify-center gap-2 text-nowrap rounded-full border px-4 font-bold outline-0 transition-all disabled:cursor-not-allowed disabled:opacity-50`}
+  {...props}
 >
   <slot />
 </a>
