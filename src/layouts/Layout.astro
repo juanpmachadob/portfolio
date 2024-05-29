@@ -80,4 +80,25 @@ const { title } = Astro.props;
       color: transparent;
     }
   }
+
+  @keyframes fadeAndShrink {
+    0% {
+      opacity: 1;
+      scale: 1;
+    }
+    100% {
+      opacity: 0.15;
+      scale: 0.5;
+    }
+  }
+  @keyframes fadeAndGrow {
+    0% {
+      opacity: 0.15;
+      scale: 0.5;
+    }
+    100% {
+      scale: 1;
+      opacity: 1;
+    }
+  }
 </style>

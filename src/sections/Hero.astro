@@ -100,6 +100,35 @@ import { CurriculumIcon, EmailIcon, GithubIcon, LinkedinIcon } from "@/icons";
     overflow: hidden;
   }
 
+  #hero::before,
+  #hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  #hero::before {
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      var(--color-primary-transparent) 20%,
+      transparent 100%
+    );
+    animation: fadeAndShrink 3s ease-in-out infinite alternate;
+  }
+
+  #hero::after {
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      var(--color-secondary-transparent) 20%,
+      transparent 100%
+    );
+    animation: fadeAndGrow 3s ease-in-out infinite alternate;
+  }
+
   .img-hero {
     filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
     mask-image: linear-gradient(to bottom, black 75%, transparent 100%);
