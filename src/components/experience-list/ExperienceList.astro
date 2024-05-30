@@ -1,0 +1,10 @@
+---
+import { ExperienceCard } from "@/components";
+import { EXPERIENCE } from "@/data";
+---
+
+<div
+  class="!md:before:ml-5 relative space-y-8 rounded-full before:absolute before:inset-0 before:h-full before:w-0.5 before:-translate-x-px before:bg-gradient-to-b before:from-transparent before:via-primary before:to-transparent md:before:mx-auto md:before:translate-x-0"
+>
+  {EXPERIENCE.map((experience) => <ExperienceCard experience={experience} />)}
+</div>
