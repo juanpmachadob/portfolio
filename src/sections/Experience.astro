@@ -22,3 +22,36 @@ import { ExperienceIcon } from "@/icons";
     <ExperienceList />
   </div>
 </section>
+
+<style>
+  #experience {
+    position: relative;
+  }
+
+  #experience::before,
+  #experience::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  #experience::after {
+    background: radial-gradient(
+      30% 30% at 20% 70%,
+      var(--color-primary-transparent) 10%,
+      transparent 100%
+    );
+  }
+
+  #experience::before {
+    background: radial-gradient(
+      30% 30% at 80% 40%,
+      var(--color-tertiary-transparent) 10%,
+      transparent 100%
+    );
+  }
+</style>
