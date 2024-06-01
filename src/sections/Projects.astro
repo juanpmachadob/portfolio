@@ -1,0 +1,25 @@
+---
+import { ProjectsList } from "@/components";
+import { ProjectIcon } from "@/icons";
+---
+
+<section
+  id="projects"
+  class="scroll-mt-20 border-t border-t-white/25 px-4 py-16 shadow-inner shadow-black/75"
+>
+  <div class="m-auto flex max-w-6xl flex-col">
+    <span class="mb-4 flex items-center justify-center gap-4 text-white">
+      <ProjectIcon class="size-7" />
+      <h2 class="text-center text-3xl font-bold text-white md:text-4xl">
+        Projects
+      </h2>
+    </span>
+    <p class="mb-8 text-balance text-center text-white/75">
+      He trabajado los <b class="text-white">últimos 4 años</b> en proyectos increíbles,
+      que han enriquecido mis habilidades y conocimientos, impulsando mis competencias
+      y mi desarrollo como profesional.
+    </p>
+
+    <ProjectsList />
+  </div>
+</section>
