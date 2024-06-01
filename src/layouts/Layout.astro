@@ -79,6 +79,30 @@ const { title } = Astro.props;
       -webkit-background-clip: text;
       color: transparent;
     }
+    .glow-shift {
+      @apply ring-white/50;
+      position: relative;
+      border-color: rgba(255, 255, 255, 0.5);
+      transition: border-color 0.3s;
+      z-index: 11;
+    }
+
+    .glow-shift::before {
+      animation: glow-shift 8s linear infinite;
+      background-color: rgba(255, 255, 255, 0.75);
+      color: rgba(255, 255, 255, 0.5);
+      border-radius: 100%;
+      box-shadow:
+        0 0 10px 1px,
+        0 0 20px 4px,
+        0 0 30px 6px;
+      content: "";
+      inset: 0;
+      position: absolute;
+      height: 4px;
+      width: 4px;
+      z-index: 10;
+    }
   }
 
   @keyframes fadeAndShrink {
@@ -99,6 +123,26 @@ const { title } = Astro.props;
     100% {
       scale: 1;
       opacity: 1;
+    }
+  }
+
+  @keyframes glow-shift {
+    0%,
+    100% {
+      top: -4px;
+      left: -4px;
+    }
+    25% {
+      top: 100%;
+      left: -4px;
+    }
+    50% {
+      top: 100%;
+      left: 100%;
+    }
+    75% {
+      top: -4px;
+      left: 100%;
     }
   }
 </style>
