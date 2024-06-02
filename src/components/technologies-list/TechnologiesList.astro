@@ -1,0 +1,13 @@
+---
+import { TECHNOLOGIES } from "@/data";
+---
+
+<ul class="flex flex-wrap items-center justify-center gap-2 md:justify-start">
+  {
+    TECHNOLOGIES.map((technology) => (
+      <li class="rounded-lg bg-dark px-2 py-0.5 text-xs text-white">
+        {technology}
+      </li>
+    ))
+  }
+</ul>

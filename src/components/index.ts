@@ -5,3 +5,5 @@ export { default as ExperienceList } from "./experience-list/ExperienceList.astr
 
 export { default as ProjectCard } from "./project-card/ProjectCard.astro";
 export { default as ProjectsList } from "./projects-list/ProjectsList.astro";
+
+export { default as TechnologiesList } from "./technologies-list/TechnologiesList.astro";
