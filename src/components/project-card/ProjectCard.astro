@@ -16,10 +16,12 @@ const { project } = Astro.props;
     class="relative overflow-hidden rounded-xl"
   >
     <img
-      alt={project.name}
+      alt={`Mockup de ${project.name}`}
       src={`/assets/images/projects/${project.image}`}
       class="aspect-video transform-gpu transition-transform duration-500 group-hover:scale-105 group-hover:saturate-150"
       transition:name={`project-image-${project.slug}`}
+      loading="lazy"
+      decoding="async"
     />
     <div
       class="absolute inset-0 flex translate-y-full transform-gpu bg-gradient-to-t from-black/75 via-black/50 to-transparent backdrop-blur-sm transition-transform duration-300 group-hover:translate-y-0"
