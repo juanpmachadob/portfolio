@@ -1,3 +1,4 @@
+export { default as AboutIcon } from "./about.astro";
 export { default as CurriculumIcon } from "./curriculum.astro";
 export { default as EmailIcon } from "./email.astro";
 export { default as ExperienceIcon } from "./experience.astro";
