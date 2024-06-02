@@ -1,7 +1,7 @@
 [
     {
         "company": "Perspektiva 360",
-        "logo": "/assets/logos/perspektiva360.ico",
+        "logo": "perspektiva360.webp",
         "website": "https://perspektiva360.com",
         "role": "Desarrollador Full Stack",
         "date": "Jun. 2022 - Actualmente",
@@ -15,7 +15,7 @@
     },
     {
         "company": "Tigo Colombia Movil",
-        "logo": "/assets/logos/tigo.ico",
+        "logo": "tigo.webp",
         "website": "https://www.tigo.com.co",
         "role": "Analista de datos",
         "date": "Prácticas: Oct. 2021 - Abr. 2022",
