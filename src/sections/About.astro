@@ -23,7 +23,7 @@ import { AboutIcon } from "@/icons";
       <h2 class="text-3xl font-bold text-white md:text-4xl">About me</h2>
     </span>
     <div
-      class="flex flex-col justify-center gap-2 text-pretty text-center text-white/75 md:text-start"
+      class="radial-gradient flex flex-col justify-center gap-2 text-pretty text-center text-white/75 md:text-start"
     >
       <p>
         ¡Mi nombre es Juan Pablo y vivo en Bogotá, Colombia! <br />
@@ -49,3 +49,29 @@ import { AboutIcon } from "@/icons";
     </div>
   </article>
 </section>
+
+<style>
+  .radial-gradient {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .radial-gradient::before,
+  .radial-gradient::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  .radial-gradient::before {
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      var(--color-secondary-transparent) 20%,
+      transparent 100%
+    );
+  }
+</style>
