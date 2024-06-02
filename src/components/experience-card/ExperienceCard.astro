@@ -50,10 +50,7 @@ const { experience } = Astro.props;
     <ul class="ml-6 mt-4 flex list-disc flex-col gap-2 text-white/75">
       {
         experience.tasks.map((task) => (
-          <li
-            class="experience-item [&>b]:font-semibold [&>b]:text-white"
-            set:html={task}
-          />
+          <li class="experience-item" set:html={task} />
         ))
       }
     </ul>
