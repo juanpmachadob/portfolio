@@ -2,15 +2,9 @@
 import { PROJECTS } from "@/data";
 import { Layout } from "@/layouts";
 import { Navbar, ProjectDetails } from "@/sections";
+import i18next from "i18next";
 
-export function getStaticPaths() {
-  return PROJECTS.map((project) => ({
-    params: {
-      slug: project.slug,
-    },
-  }));
-}
-
+i18next.changeLanguage(Astro.currentLocale);
 const { slug } = Astro.params;
 
 const [project] = PROJECTS.filter((project) => project.slug == slug);

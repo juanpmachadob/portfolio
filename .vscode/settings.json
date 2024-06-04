@@ -19,4 +19,8 @@
   "[astro]": {
     "editor.defaultFormatter": "astro-build.astro-vscode"
   },
+  "i18n-ally.localesPaths": [
+    "src/i18n",
+    "public/assets/logos/lang"
+  ],
 }

@@ -1,0 +1,15 @@
+---
+import { ProjectPage } from "@/components/pages";
+import { PROJECTS } from "@/data";
+const { props } = Astro;
+
+export function getStaticPaths() {
+  return PROJECTS.map((project) => ({
+    params: {
+      slug: project.slug,
+    },
+  }));
+}
+---
+
+<ProjectPage props={props} />
