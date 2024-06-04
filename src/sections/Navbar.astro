@@ -1,6 +1,8 @@
 ---
 import { LanguageSelector } from "@/components";
 import { MenuIcon } from "@/icons";
+import { getRelativeLocaleUrl } from "astro:i18n";
+import i18n from "i18next";
 ---
 
 <div>
@@ -34,21 +36,21 @@ import { MenuIcon } from "@/icons";
           </li>
           <li>
             <a
-              href="/#experience"
+              href={getRelativeLocaleUrl(i18n.language) + "#experience"}
               class="block rounded-lg p-2 text-white/75 transition-colors hover:text-white active:text-primary md:hover:underline"
               >Experience</a
             >
           </li>
           <li>
             <a
-              href="/#projects"
+              href={getRelativeLocaleUrl(i18n.language) + "#projects"}
               class="block rounded-lg p-2 text-white/75 transition-colors hover:text-white active:text-primary md:hover:underline"
               >Projects</a
             >
           </li>
           <li>
             <a
-              href="/#about"
+              href={getRelativeLocaleUrl(i18n.language) + "#about"}
               class="block rounded-lg p-2 text-white/75 transition-colors hover:text-white active:text-primary md:hover:underline"
               >About me</a
             >

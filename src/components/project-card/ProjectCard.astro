@@ -1,5 +1,7 @@
 ---
 import type { Project } from "@/types";
+import { getRelativeLocaleUrl } from "astro:i18n";
+import i18n from "i18next";
 
 interface Props {
   project: Project;
@@ -12,7 +14,7 @@ const { project } = Astro.props;
   class="hover:glow-shift group relative flex cursor-pointer select-none flex-col gap-4 rounded-xl ring-1 ring-white/25"
 >
   <a
-    href={`/projects/${project.slug}`}
+    href={getRelativeLocaleUrl(i18n.language, `/projects/${project.slug}`)}
     class="relative overflow-hidden rounded-xl"
   >
     <img
