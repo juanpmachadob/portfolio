@@ -1,0 +1,32 @@
+---
+import { LANGUAGES } from "@/i18n";
+import { getRelativeLocaleUrl } from "astro:i18n";
+import i18n from "i18next";
+---
+
+<span class="flex items-center justify-center" title="Change language">
+  <!-- English -->
+  {
+    i18n.language === LANGUAGES.ENGLISH && (
+      <a href={getRelativeLocaleUrl(LANGUAGES.SPANISH)}>
+        <img
+          src={`/assets/logos/lang/${LANGUAGES.ENGLISH}.webp`}
+          alt="Language icon english"
+          class="size-4"
+        />
+      </a>
+    )
+  }
+  <!-- Spanish -->
+  {
+    i18n.language === LANGUAGES.SPANISH && (
+      <a href={getRelativeLocaleUrl(LANGUAGES.ENGLISH)}>
+        <img
+          src={`/assets/logos/lang/${LANGUAGES.SPANISH}.webp`}
+          alt="Language icon spanish"
+          class="size-4"
+        />
+      </a>
+    )
+  }
+</span>
