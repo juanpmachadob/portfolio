@@ -17,13 +17,35 @@ const { title, description, tags } = Astro.props;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <meta name="author" content="Juan Pablo Machado" />
-    <meta name="copyright" content="Juan Pablo Machado" />
+    <!-- HTML Meta Tags -->
+    <title>{title}</title>
     <meta name="description" content={description} />
     <meta name="keywords" content={tags} />
+    <meta name="author" content="Juan Pablo Machado" />
+    <meta name="copyright" content="Juan Pablo Machado" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:url" content="https://juanmachado.netlify.app/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta
+      property="og:image"
+      content="https://juanmachado.netlify.app/thumbnail.webp"
+    />
+    <!-- Twitter data -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:domain" content="juanmachado.netlify.app" />
+    <meta name="twitter:url" content="https://juanmachado.netlify.app/" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta
+      name="twitter:image"
+      content="https://juanmachado.netlify.app/thumbnail.webp"
+    />
+    <!-- Other -->
     <meta name="generator" content={Astro.generator} />
     <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
-    <title>{title}</title>
     <ViewTransitions fallback="swap" />
   </head>
   <body>

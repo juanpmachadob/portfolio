@@ -9,6 +9,7 @@ export default defineConfig({
       applyBaseStyles: false,
     }),
   ],
+  site: "https://juanmachado.netlify.app",
   i18n: {
     locales: LOCALES,
     defaultLocale: DEFAULT_LOCALE,
