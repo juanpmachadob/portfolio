@@ -1,12 +1,16 @@
 ---
 import { Layout } from "@/layouts";
 import { About, Experience, Footer, Hero, Navbar, Projects } from "@/sections";
-import i18next from "i18next";
+import i18next, { t } from "i18next";
 
 i18next.changeLanguage(Astro.currentLocale);
 ---
 
-<Layout title="Juan Pablo Machado - Software Developer">
+<Layout
+  title={t("seo.title")}
+  description={t("seo.description")}
+  tags={t("seo.tags")}
+>
   <Navbar />
   <Hero />
   <Experience />

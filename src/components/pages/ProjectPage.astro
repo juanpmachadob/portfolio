@@ -15,7 +15,11 @@ if (!project) {
 }
 ---
 
-<Layout title={`Juan Pablo Machado - ${project.name}`}>
+<Layout
+  title={t("seo.title")}
+  description={t("seo.description")}
+  tags={t("seo.tags")}
+>
   <Navbar />
   <ProjectDetails project={project} />
 </Layout>

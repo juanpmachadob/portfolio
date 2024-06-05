@@ -5,25 +5,24 @@ import { ViewTransitions } from "astro:transitions";
 
 interface Props {
   title: string;
+  description: string;
+  tags: string;
 }
 
-const { title } = Astro.props;
+const { title, description, tags } = Astro.props;
 ---
 
 <!doctype html>
 <html lang={Astro.currentLocale}>
   <head>
     <meta charset="UTF-8" />
-    <meta name="author" content="Juan Pablo Machado" />
-    <meta name="description" content="Soy desarrollador web Full Stack" />
-    <meta
-      name="keywords"
-      content="juan pablo machado, desarrollador software, desarrollador web, desarrollador fullstack, desarrollo web"
-    />
-    <meta name="copyright" content="Juan Pablo Machado" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="author" content="Juan Pablo Machado" />
+    <meta name="copyright" content="Juan Pablo Machado" />
+    <meta name="description" content={description} />
+    <meta name="keywords" content={tags} />
     <meta name="generator" content={Astro.generator} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <title>{title}</title>
     <ViewTransitions fallback="swap" />
   </head>
