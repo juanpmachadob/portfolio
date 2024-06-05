@@ -1,5 +1,95 @@
 {
+    "header": {
+        "change-language": "Change language",
+        "toggle-menu": "Toggle main menu",
+        "language-alt": "Language icon {{lng}}"
+    },
     "hero": {
+        "role": "Frontend Developer",
+        "description-1": "I have <u>+2 years of work experience</u>.",
+        "description-2": "I really like to create challenging projects that improves my learning and professional growth.",
+        "description-3": "Thinking in a project? <b>Let's work together!</b>",
+        "image-alt": "Photo of Juan Machado with crossed arms",
         "download-cv": "Download CV"
+    },
+    "experience": {
+        "title": "Experience",
+        "description": "During my <b>+2 years of professional experience</b>, I have worked with wonderful companies and teams, where I have been able to contribute and learn from each one.",
+        "logo-alt": "{{company}} Logo",
+        "items": {
+            "perspektiva360": {
+                "role": "Full Stack Developer",
+                "date": "Jun. 2022 - Currently",
+                "tasks": [
+                    "Develop API and administration panel for an AR App, allowing to add markers and <b>geo-located locations</b> with media in AWS for a <b>United Nations NGO</b>.",
+                    "Develop <b>SaaS expense management system</b> for companies and employees, facilitating expense control and visualization of charts with general statistics.",
+                    "Develop a web app for a video production service, allowing users to request personalized videos> and manage them through <b>tools to add comments at specific points in their videos and PDF scripts</b>.",
+                    "Develop web tools to optimize internal processes, including a <b>networking app powered with AI, a quotation generator and a landing pages editor</b>.",
+                    "Implement custom functionalities in <b>Pano2VR 360° virtual tours</b>, integrating external services with its API."
+                ]
+            },
+            "tigo": {
+                "role": "Data Analyst",
+                "date": "Internship: Oct. 2021 - Apr. 2022",
+                "tasks": [
+                    "Develop and maintain <b>web scrapper</b> for data extraction and reading from Mixpanel to Tableau through its API.",
+                    "Develop and maintain <b>Python automations</b> for daily tasks, decreasing execution times up to <b>95%</b>.",
+                    "Write <b>custom SQL queries</b> in Oracle DB, BigQuery and Amazon Athena for specific data extraction.",
+                    "Design dashboards with <b>automated charts</b> in Tableau and Mixpanel facilitating data analysis."
+                ]
+            }
+        }
+    },
+    "projects": {
+        "title": "Projects",
+        "description": "I have been working the <b>last 4 years</b> on impactful projects which have improved my knowledge and skills by enhancing my expertise and my professional growth.",
+        "mockup-alt": "{{project}} Mockup",
+        "view-project": "View project",
+        "view-repository": "View repository",
+        "not-found": "Project not found",
+        "items": {
+            "vocablo": {
+                "description": "Vocabulary and grammar learning, note your own words and generate AI-driven lessons to practice them."
+            },
+            "trainant": {
+                "description": "Detailed control and creation of workout routines, weight and repetition tracking, exercise visualization."
+            },
+            "jumping-planet": {
+                "description": "2D platform game where players jump between planets to reach their spaceship before oxygen depletes."
+            },
+            "trello-clone": {
+                "description": "Manage your workflow by creating Kanban boards to organize your tasks in a Trello-like web application."
+            },
+            "game-blog": {
+                "description": "Search, add, visualize or rate your favorite video games in a blog-style web application."
+            },
+            "budget-manager": {
+                "description": "Visualize and manage your budget by tracking your incomes and expenses effectively."
+            },
+            "unsplash-clone": {
+                "description": "Search, visualize, upload and download images using the definitive web application clone of Unsplash."
+            },
+            "journal-book": {
+                "description": "Write your own journal, visualize daily entries and notes created in your personal book."
+            },
+            "autonite": {
+                "description": "Manage purchases, sales, inventory and human resources while visualizing detailed reports with charts."
+            }
+        }
+    },
+    "about": {
+        "title": "About me",
+        "description-1": "My name is Juan Pablo, I'm from Bogotá, Colombia!",
+        "description-2": "I started my programming journey in 2020 by <b>developing a game in Unity</b>. Then, I moved to web development and completed my <b>technical degree in analysis and development of information systems</b>.",
+        "description-3": "During my career, I have managed to work on various innovative and creative projects. I'm particularly proud of my contribution in the development of a project for a <b>United Nations NGO focused on promoting sustainable development and public transparency</b>.",
+        "description-4": "As a software developer, my goal is to keep creating <b>effective solutions for real-word problems</b>, always open to learning new things and improving my tech and personal skills.",
+        "tech-stack-info": "This is my <b>tech-stack</b>:",
+        "image-alt": "Selfie of Juan Machado looking straight ahead"
+    },
+    "footer": {
+        "title": "Let's get in touch!",
+        "description-1": "Feel free to contact me regarding <b>any project</b>.",
+        "description-2": "I'm always open to new <b>challenges</b> and collaborations.",
+        "coded-by": "Portfolio <span class='text-white/50'>⌨</span> by"
     }
 }

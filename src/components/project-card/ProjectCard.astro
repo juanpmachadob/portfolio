@@ -1,7 +1,7 @@
 ---
 import type { Project } from "@/types";
 import { getRelativeLocaleUrl } from "astro:i18n";
-import i18n from "i18next";
+import i18n, { t } from "i18next";
 
 interface Props {
   project: Project;
@@ -18,7 +18,7 @@ const { project } = Astro.props;
     class="relative overflow-hidden rounded-xl"
   >
     <img
-      alt={`Mockup de ${project.name}`}
+      alt={t("projects.mockup-alt", { project: project.name })}
       src={`/assets/images/projects/${project.image}`}
       class="aspect-video transform-gpu transition-transform duration-500 group-hover:scale-105 group-hover:saturate-150"
       transition:name={`project-image-${project.slug}`}

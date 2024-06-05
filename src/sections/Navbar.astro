@@ -2,7 +2,7 @@
 import { LanguageSelector } from "@/components";
 import { MenuIcon } from "@/icons";
 import { getRelativeLocaleUrl } from "astro:i18n";
-import i18n from "i18next";
+import i18n, { t } from "i18next";
 ---
 
 <div>
@@ -13,7 +13,7 @@ import i18n from "i18next";
     <div
       class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between px-4"
     >
-      <a href="/#top" class="flex h-20 items-center"
+      <a href="/#top" class="flex h-20 items-center hover:underline"
         >Juan Pablo <b>&nbsp;Machado</b></a
       >
       <div class="flex items-center">
@@ -22,7 +22,7 @@ import i18n from "i18next";
           type="button"
           class="items-center justify-center rounded-lg px-2 text-white/75 transition-colors hover:text-white focus:outline-none md:hidden"
         >
-          <span class="sr-only">Open main menu</span>
+          <span class="sr-only">{t("header.toggle-menu")}</span>
           <MenuIcon class="size-5" />
         </button>
       </div>
@@ -30,29 +30,31 @@ import i18n from "i18next";
         class="hidden w-full items-center justify-between md:flex md:w-auto"
         id="navbar-sticky"
       >
-        <ul class="my-4 flex flex-col gap-4 text-center md:my-0 md:flex-row">
-          <li class="flex">
+        <ul
+          class="my-4 flex flex-col items-center gap-4 text-center md:my-0 md:flex-row"
+        >
+          <li>
             <LanguageSelector />
           </li>
           <li>
             <a
               href={getRelativeLocaleUrl(i18n.language) + "#experience"}
               class="block rounded-lg p-2 text-white/75 transition-colors hover:text-white active:text-primary md:hover:underline"
-              >Experience</a
+              >{t("experience.title")}</a
             >
           </li>
           <li>
             <a
               href={getRelativeLocaleUrl(i18n.language) + "#projects"}
               class="block rounded-lg p-2 text-white/75 transition-colors hover:text-white active:text-primary md:hover:underline"
-              >Projects</a
+              >{t("projects.title")}</a
             >
           </li>
           <li>
             <a
               href={getRelativeLocaleUrl(i18n.language) + "#about"}
               class="block rounded-lg p-2 text-white/75 transition-colors hover:text-white active:text-primary md:hover:underline"
-              >About me</a
+              >{t("about.title")}</a
             >
           </li>
         </ul>

@@ -2,7 +2,7 @@
 import { PROJECTS } from "@/data";
 import { Layout } from "@/layouts";
 import { Navbar, ProjectDetails } from "@/sections";
-import i18next from "i18next";
+import i18next, { t } from "i18next";
 
 i18next.changeLanguage(Astro.currentLocale);
 const { slug } = Astro.params;
@@ -10,7 +10,7 @@ const { slug } = Astro.params;
 const [project] = PROJECTS.filter((project) => project.slug == slug);
 
 if (!project) {
-  return new Response("Projects not found", { status: 404 });
+  return new Response(JSON.stringify(t("projects.not-found")), { status: 404 });
 }
 ---
 

@@ -1,6 +1,7 @@
 ---
 import { ProjectsList } from "@/components";
 import { ProjectIcon } from "@/icons";
+import { t } from "i18next";
 ---
 
 <section
@@ -11,14 +12,13 @@ import { ProjectIcon } from "@/icons";
     <span class="mb-4 flex items-center justify-center gap-4 text-white">
       <ProjectIcon class="size-7" />
       <h2 class="text-center text-3xl font-bold text-white md:text-4xl">
-        Projects
+        {t("projects.title")}
       </h2>
     </span>
-    <p class="mb-8 text-balance text-center text-white/75">
-      He trabajado los <b>últimos 4 años</b> en proyectos increíbles, que han enriquecido
-      mis habilidades y conocimientos, impulsando mis competencias y mi desarrollo
-      como profesional.
-    </p>
+    <p
+      class="mb-8 text-balance text-center text-white/75"
+      set:html={t("projects.description")}
+    />
 
     <ProjectsList />
   </div>

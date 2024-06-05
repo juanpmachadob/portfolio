@@ -1,7 +1,7 @@
 ---
 import { LANGUAGES, LOCALES } from "@/i18n";
 import { getRelativeLocaleUrl } from "astro:i18n";
-import i18n from "i18next";
+import i18n, { t } from "i18next";
 
 const currentUrlWithoutLocale = LOCALES.reduce(
   (acc, locale) => acc.replace(new RegExp(`/${locale}/`), "/"),
@@ -9,7 +9,10 @@ const currentUrlWithoutLocale = LOCALES.reduce(
 );
 ---
 
-<span class="flex items-center justify-center" title="Change language">
+<span
+  class="flex items-center justify-center"
+  title={t("header.change-language")}
+>
   <!-- English -->
   {
     i18n.language === LANGUAGES.ENGLISH && (
@@ -18,7 +21,7 @@ const currentUrlWithoutLocale = LOCALES.reduce(
       >
         <img
           src={`/assets/logos/lang/${LANGUAGES.ENGLISH}.webp`}
-          alt="Language icon english"
+          alt={t("header.language-icon", { lng: LANGUAGES.ENGLISH })}
           class="size-4"
         />
       </a>
@@ -32,7 +35,7 @@ const currentUrlWithoutLocale = LOCALES.reduce(
       >
         <img
           src={`/assets/logos/lang/${LANGUAGES.SPANISH}.webp`}
-          alt="Language icon spanish"
+          alt={t("header.language-icon", { lng: LANGUAGES.SPANISH })}
           class="size-4"
         />
       </a>

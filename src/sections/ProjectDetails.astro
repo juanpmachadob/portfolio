@@ -2,6 +2,7 @@
 import { Button } from "@/components";
 import { GithubIcon, LinkIcon, ProjectIcon } from "@/icons";
 import type { Project } from "@/types";
+import { t } from "i18next";
 
 interface Props {
   project: Project;
@@ -18,7 +19,7 @@ const { project } = Astro.props;
     <div class="flex items-center justify-center">
       <figure class="glow-shift">
         <img
-          alt={`Mockup de ${project.name}`}
+          alt={t("projects.mockup-alt", { project: project.name })}
           src={`/assets/images/projects/${project.image}`}
           class="aspect-video rounded-xl ring-1 ring-white/25"
           transition:name={`project-image-${project.slug}`}
@@ -50,7 +51,7 @@ const { project } = Astro.props;
               <li class="relative flex">
                 <Button href={project.page} target="_blank" variant="gradient">
                   <LinkIcon class="size-5 text-white" />
-                  View page
+                  {t("projects.view-project")}
                 </Button>
               </li>
             )
@@ -64,7 +65,7 @@ const { project } = Astro.props;
                   title="Github"
                 >
                   <GithubIcon class="size-5 text-white" />
-                  View repository
+                  {t("projects.view-repository")}
                 </Button>
               </li>
             )

@@ -1,5 +1,95 @@
 {
+    "header": {
+        "change-language": "Cambiar idioma",
+        "toggle-menu": "Alternar menu",
+        "language-alt": "Icono de idioma {{lng}}"
+    },
     "hero": {
+        "role": "Desarrollador Frontend",
+        "description-1": "Tengo <u>+2 años de experiencia laboral</u>.",
+        "description-2": "Me gusta crear proyectos desafiantes que fomenten mi aprendizaje y crecimiento profesional.",
+        "description-3": "¿Tienes un proyecto en mente? <b>¡Trabajemos juntos!</b>",
+        "image-alt": "Foto de Juan Machado con los brazos cruzados",
         "download-cv": "Descargar CV"
+    },
+    "experience": {
+        "title": "Experiencia",
+        "description": "Durante mis <b>+2 años de experiencia profesional</b>, he tenido la oportunidad de trabajar con empresas y equipos maravillosos, donde he logrado aportar valor y aprender de cada uno de ellos.",
+        "logo-alt": "Logo de {{company}}",
+        "items": {
+            "perspektiva360": {
+                "role": "Desarrollador Full Stack",
+                "date": "Jun. 2022 - Actualmente",
+                "tasks": [
+                    "Desarrollar API y panel de administración de una App AR, permitiendo agregar marcadores y <b>ubicaciones geo-localizadas</b> con medios en AWS para una <b>ONG de las Naciones Unidas</b>.",
+                    "Desarrollar sistema de <b>gestión de gastos SaaS</b> para empresas y empleados, facilitando el control de gastos y la visualización de gráficos con estadísticas generales.",
+                    "Desarrollar una app web para un servicio de producción audiovisual, permitiendo a los usuarios solicitar videos personalizados y gestionarlos mediante herramientas para <b>añadir comentarios en puntos específicos de sus videos y guiones PDF</b>.",
+                    "Desarrollar herramientas web para optimizar procesos internos, incluyendo una <b>app de networking impulsada con IA, un generador de cotizaciones y un editor de landing pages</b>.",
+                    "Implementar funcionalidades personalizadas en <b>recorridos virtuales 360° de Pano2VR</b>, integrando servicios externos con su API."
+                ]
+            },
+            "tigo": {
+                "role": "Analista de datos",
+                "date": "Prácticas: Oct. 2021 - Abr. 2022",
+                "tasks": [
+                    "Desarrollar y mantener <b>web scrapper</b> para la extracción e interpretación de datos desde Mixpanel hacia Tableau a través de su API.",
+                    "Desarrollar y mantener <b>automatizaciones de Python</b> para tareas diarias, disminuyendo tiempos de ejecución hasta un <b>95%</b>.",
+                    "Elaborar <b>consultas SQL personalizadas</b> en Oracle DB, BigQuery y Amazon Athena para la extracción de datos específicos.",
+                    "Diseñar dashboards con <b>gráficos automatizados</b> en Tableau y Mixpanel facilitando el análisis de datos."
+                ]
+            }
+        }
+    },
+    "projects": {
+        "title": "Proyectos",
+        "description": "He trabajado los <b>últimos 4 años</b> en proyectos increíbles, que han enriquecido mis habilidades y conocimientos, impulsando mis competencias y mi desarrollo como profesional.",
+        "mockup-alt": "Mockup de {{project}}",
+        "view-project": "Ver proyecto",
+        "view-repository": "Ver repositorio",
+        "not-found": "Proyecto no encontrado",
+        "items": {
+            "vocablo": {
+                "description": "Aprendizaje de vocabulario y gramática, anota tus propias palabras y genera sesiones de práctica impulsadas con IA."
+            },
+            "trainant": {
+                "description": "Control y creación de rutinas de ejercicio, seguimiento de peso y repeticiones, visualización de ejercicios."
+            },
+            "jumping-planet": {
+                "description": "Videojuego 2D donde los jugadores saltan entre planetas para llegar a su nave antes de que se agote el oxígeno."
+            },
+            "trello-clone": {
+                "description": "Administra tu flujo de trabajo creando tableros Kanban para organizar tus tareas en una app web similar a Trello."
+            },
+            "game-blog": {
+                "description": "Busca, añade, visualiza o califica tus videojuegos favoritos en una aplicación web con estilo de blog."
+            },
+            "budget-manager": {
+                "description": "Visualiza y administra tu presupuesto rastreando tus ingresos y gastos de manera efectiva."
+            },
+            "unsplash-clone": {
+                "description": "Busca, visualiza, sube y descarga imágenes utilizando la aplicación web y clon definitivo de Unsplash."
+            },
+            "journal-book": {
+                "description": "Escribe tu propio diario, visualiza tus escritos diarios y notas creadas en tu libro personal."
+            },
+            "autonite": {
+                "description": "Gestiona compras, ventas, inventario y recursos humanos mientras visualizas informes detallados con gráficos."
+            }
+        }
+    },
+    "about": {
+        "title": "Sobre mi",
+        "description-1": "¡Mi nombre es Juan Pablo y vivo en Bogotá, Colombia!",
+        "description-2": "Inicié en el mundo de la programación en 2020, <b>desarrollando un videojuego en Unity</b>. Posteriormente, migré al desarrollo web y culminé mi formación <b>tecnológica en análisis y desarrollo de sistemas de información</b>.",
+        "description-3": "Durante mi carrera, he trabajado en diversos proyectos innovadores y creativos. Destaco mi participación en el desarrollo de un proyecto para una <b>ONG de las Naciones Unidas enfocado en promover el desarrollo sostenible y la transparencia pública</b>.",
+        "description-4": "Como desarrollador de software, mi objetivo es continuar creando <b>soluciones efectivas para problemas reales</b>, siempre dispuesto a aprender y mejorar mis habilidades técnicas y personales.",
+        "tech-stack-info": "Este es mi <b>stack tecnológico</b>:",
+        "image-alt": "Selfie de Juan Machado mirando hacia el frente"
+    },
+    "footer": {
+        "title": "¡Sigamos en contacto!",
+        "description-1": "No dudes en escribirme para <b>cualquier proyecto</b>.",
+        "description-2": "Siempre estoy abierto a nuevos <b>desafíos</b> y colaboraciones.",
+        "coded-by": "Portafolio <span class='text-white/50'>⌨</span> por"
     }
 }

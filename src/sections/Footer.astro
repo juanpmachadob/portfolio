@@ -1,5 +1,6 @@
 ---
 import { EmailIcon, GithubIcon, LinkedinIcon } from "@/icons";
+import { t } from "i18next";
 ---
 
 <footer
@@ -12,7 +13,7 @@ import { EmailIcon, GithubIcon, LinkedinIcon } from "@/icons";
       <span
         class="text-gradient bg-gradient-to-r from-primary to-secondary font-semibold"
       >
-        Let's get in touch!
+        {t("footer.title")}
       </span>
     </p>
 
@@ -51,18 +52,10 @@ import { EmailIcon, GithubIcon, LinkedinIcon } from "@/icons";
     <hr
       class="my-8 h-px w-1/2 border-0 bg-gradient-to-r from-transparent via-white/25 to-transparent"
     />
-    <p class="text-white/50">
-      Feel free to contact me regarding <b>any project</b>.
-    </p>
-    <p class="text-white/50">
-      I'm always open to new
-      <b>challenges</b>
-      and collaborations.
-    </p>
+    <p class="text-white/50" set:html={t("footer.description-1")} />
+    <p class="text-white/50" set:html={t("footer.description-2")} />
     <a class="group mt-4 text-white/75" href="#top">
-      Portfolio
-      <span class="text-white/50">⌨</span>
-      by
+      <span set:html={t("footer.coded-by")} />
       <b class="group-hover:text-primary">Juan Pablo Machado</b>
     </a>
   </div>
