@@ -6,7 +6,7 @@ import { t } from "i18next";
 
 <section
   id="hero"
-  class="flex items-center justify-center px-4 py-16 shadow-inner shadow-black/75"
+  class="radial-gradient flex items-center justify-center px-4 py-16 shadow-inner shadow-black/75"
 >
   <div
     class="m-auto grid items-center gap-y-8 md:max-w-6xl md:grid-cols-2 md:grid-rows-2 md:gap-y-0"
@@ -95,23 +95,15 @@ import { t } from "i18next";
 
 <style>
   #hero {
-    position: relative;
     min-height: calc(100vh - 80px);
-    overflow: hidden;
   }
 
-  #hero::before,
-  #hero::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+  .img-hero {
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+    mask-image: linear-gradient(to bottom, black 75%, transparent 100%);
   }
 
-  #hero::before {
+  .radial-gradient::before {
     background: radial-gradient(
       50% 50% at 50% 50%,
       var(--color-primary-transparent) 20%,
@@ -120,17 +112,12 @@ import { t } from "i18next";
     animation: fadeAndShrink 3s ease-in-out infinite alternate;
   }
 
-  #hero::after {
+  .radial-gradient::after {
     background: radial-gradient(
       50% 50% at 50% 50%,
       var(--color-secondary-transparent) 20%,
       transparent 100%
     );
     animation: fadeAndGrow 3s ease-in-out infinite alternate;
-  }
-
-  .img-hero {
-    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
-    mask-image: linear-gradient(to bottom, black 75%, transparent 100%);
   }
 </style>

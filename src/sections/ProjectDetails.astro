@@ -13,7 +13,7 @@ const { project } = Astro.props;
 
 <article
   id="project"
-  class="flex items-center justify-center shadow-inner shadow-black/75"
+  class="radial-gradient flex items-center justify-center shadow-inner shadow-black/75"
 >
   <div class="m-auto grid max-w-6xl gap-8 px-4 py-16 md:grid-cols-2">
     <div class="flex items-center justify-center">
@@ -78,22 +78,10 @@ const { project } = Astro.props;
 
 <style>
   #project {
-    position: relative;
     min-height: calc(100vh - 80px);
   }
 
-  #project::before,
-  #project::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-  }
-
-  #project::before {
+  .radial-gradient::before {
     background: radial-gradient(
       50% 50% at 50% 50%,
       var(--color-primary-transparent) 20%,
@@ -102,7 +90,7 @@ const { project } = Astro.props;
     animation: fadeAndShrink 3s ease-in-out infinite alternate;
   }
 
-  #project::after {
+  .radial-gradient::after {
     background: radial-gradient(
       50% 50% at 50% 50%,
       var(--color-secondary-transparent) 20%,
