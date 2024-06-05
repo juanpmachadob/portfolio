@@ -11,14 +11,15 @@ import i18n, { t } from "i18next";
     transition:name="header"
   >
     <div
-      class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between px-4"
+      class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between px-4 md:gap-4"
     >
       <a
         href={getRelativeLocaleUrl(i18n.language) + "#"}
         class="flex h-20 items-center hover:underline"
         >Juan Pablo <b>&nbsp;Machado</b></a
       >
-      <div class="flex items-center">
+      <div class="flex grow place-content-end items-center gap-4">
+        <LanguageSelector />
         <button
           id="menu-toggle"
           type="button"
@@ -35,9 +36,6 @@ import i18n, { t } from "i18next";
         <ul
           class="my-4 flex flex-col items-center gap-4 text-center md:my-0 md:flex-row"
         >
-          <li>
-            <LanguageSelector />
-          </li>
           <li>
             <a
               href={getRelativeLocaleUrl(i18n.language) + "#experience"}
