@@ -6,7 +6,7 @@ export const LANGUAGES = {
   ENGLISH: "en",
   SPANISH: "es",
 };
-export const DEFAULT_LOCALE = LANGUAGES.ENGLISH;
+export const DEFAULT_LOCALE = LANGUAGES.SPANISH;
 export const LOCALES = [LANGUAGES.ENGLISH, LANGUAGES.SPANISH];
 
 i18n.init({
