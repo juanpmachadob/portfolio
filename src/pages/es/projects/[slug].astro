@@ -1,9 +1,10 @@
 ---
 import { ProjectPage } from "@/components/pages";
-import { PROJECTS } from "@/data";
+import { getProjects } from "@/data";
 const { props } = Astro;
 
 export function getStaticPaths() {
+  const PROJECTS = getProjects();
   return PROJECTS.map((project) => ({
     params: {
       slug: project.slug,
