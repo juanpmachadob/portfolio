@@ -11,7 +11,7 @@ export default defineConfig({
     }),
     sitemap(),
   ],
-  site: "https://juanmachado.netlify.app",
+  site: "https://jpmachado.dev",
   i18n: {
     locales: LOCALES,
     defaultLocale: DEFAULT_LOCALE,
