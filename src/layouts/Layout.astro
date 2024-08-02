@@ -7,9 +7,10 @@ interface Props {
   title: string;
   description: string;
   tags: string;
+  imageUrl: string;
 }
 
-const { title, description, tags } = Astro.props;
+const { title, description, tags, imageUrl } = Astro.props;
 ---
 
 <!doctype html>
@@ -29,14 +30,14 @@ const { title, description, tags } = Astro.props;
     <meta property="og:type" content="website" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content="https://jpmachado.dev/thumbnail.webp" />
+    <meta property="og:image" content={imageUrl} />
     <!-- Twitter data -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:domain" content="jpmachado.dev" />
     <meta name="twitter:url" content="https://jpmachado.dev/" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content="https://jpmachado.dev/thumbnail.webp" />
+    <meta name="twitter:image" content={imageUrl} />
     <!-- Other -->
     <meta name="generator" content={Astro.generator} />
     <link rel="sitemap" href="/sitemap-index.xml" />
