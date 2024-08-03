@@ -1,8 +1,8 @@
 {
     "seo": {
-        "title": "Juan Pablo Machado | Frontend Developer with +2 years of experience",
-        "description": "I'm a frontend developer with +2 years of professional experience. I like to develop challenging projects. Let's work together!",
-        "tags": "juan pablo machado, frontend developer, portfolio, typescript, javascript, next.js, react, node.js, express.js, artificial intelligence"
+        "title": "Juan Pablo Machado | Software Developer with +2 years of experience",
+        "description": "I'm a software developer with +2 years of professional experience. I like to develop challenging projects. Let's work together!",
+        "tags": "juan pablo machado, software developer, full stack developer, frontend developer, backend developer, portfolio, typescript, javascript, next.js, react, node.js, express.js, artificial intelligence"
     },
     "header": {
         "change-language": "Change language",
@@ -10,7 +10,7 @@
         "language-alt": "Language icon {{lng}}"
     },
     "hero": {
-        "role": "Frontend Developer",
+        "role": "Software Developer",
         "description-1": "I have <u>+2 years of work experience</u>.",
         "description-2": "I really like to create challenging projects that improves my learning and professional growth.",
         "description-3": "Thinking in a project? <b>Let's work together!</b>",
