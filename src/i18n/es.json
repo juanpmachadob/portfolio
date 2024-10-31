@@ -12,7 +12,7 @@
     "hero": {
         "role": "Software Developer",
         "description-1": "Tengo <u>+2 años de experiencia laboral</u>.",
-        "description-2": "Me gusta crear proyectos desafiantes que fomenten mi aprendizaje y crecimiento profesional.",
+        "description-2": "Me gusta crear soluciones innovadoras que aporten valor y fomenten mi crecimiento profesional.",
         "description-3": "¿Tienes un proyecto en mente? <b>¡Trabajemos juntos!</b>",
         "image-alt": "Foto de Juan Machado con los brazos cruzados",
         "download-cv": "Descargar CV"
@@ -26,21 +26,20 @@
                 "role": "Desarrollador Full Stack",
                 "date": "Jun. 2022 - Actualmente",
                 "tasks": [
-                    "Desarrollar API y panel de administración de una App AR, permitiendo agregar marcadores y <b>ubicaciones geo-localizadas</b> con medios en AWS para una <b>ONG de las Naciones Unidas</b>.",
-                    "Desarrollar sistema de <b>gestión de gastos SaaS</b> para empresas y empleados, facilitando el control de gastos y la visualización de gráficos con estadísticas generales.",
-                    "Desarrollar una app web para un servicio de producción audiovisual, permitiendo a los usuarios solicitar videos personalizados y gestionarlos mediante herramientas para <b>añadir comentarios en puntos específicos de sus videos y guiones PDF</b>.",
-                    "Desarrollar herramientas web para optimizar procesos internos, incluyendo una <b>app de networking impulsada con IA, un generador de cotizaciones y un editor de landing pages</b>.",
-                    "Implementar funcionalidades personalizadas en <b>recorridos virtuales 360° de Pano2VR</b>, integrando servicios externos con su API."
+                    "Desarrollar aplicaciones web con <b>JavaScript, React, Node.js y Firebase</b> de principio a fin, participando en todas las <b>etapas del ciclo de desarrollo</b> y logrando ofrecer soluciones efectivas para los usuarios finales.",
+                    "Consumir e integrar APIs de servicios internos y externos, implementando soluciones de geo-localización, <b>modelos de inteligencia artificial</b> como Open AI, procesamiento de medios en AWS, pasarelas de pago y sistemas de autenticación.",
+                    "Desarrollar APIs RESTful seguras y escalables con Node.js y Django, siguiendo <b>buenas prácticas de desarrollo</b> y garantizando un acceso eficiente a los datos.",
+                    "Actualizar y realizar mantenimiento sobre aplicaciones web, corrigiendo errores, incluyendo nuevas características y <b>optimizando funcionalidades clave</b> para mejorar su rendimiento."
                 ]
             },
             "tigo": {
                 "role": "Analista de datos",
                 "date": "Prácticas: Oct. 2021 - Abr. 2022",
                 "tasks": [
-                    "Desarrollar y mantener <b>web scrapper</b> para la extracción e interpretación de datos desde Mixpanel hacia Tableau a través de su API.",
-                    "Desarrollar y mantener <b>automatizaciones de Python</b> para tareas diarias, disminuyendo tiempos de ejecución hasta un <b>95%</b>.",
-                    "Elaborar <b>consultas SQL personalizadas</b> en Oracle DB, BigQuery y Amazon Athena para la extracción de datos específicos.",
-                    "Diseñar dashboards con <b>gráficos automatizados</b> en Tableau y Mixpanel facilitando el análisis de datos."
+                    "Desarrollar y mantener <b>web scrappers</b> en Node.js para la extracción e interpretación de información entre diferentes plataformas, optimizando el flujo de datos.",
+                    "Desarrollar <b>automatizaciones en Python</b> para tareas diarias, logrando una reducción significativa de más del 90% en tiempos de ejecución y <b>aumentando la productividad</b>.",
+                    "Diseñar <b>consultas avanzadas en bases de datos SQL</b> para la extracción de datos específicos, apoyando el análisis y la toma de decisiones.",
+                    "Crear dashboards con <b>gráficos automatizados</b> en Tableau y Mixpanel facilitando el análisis de datos."
                 ]
             }
         }

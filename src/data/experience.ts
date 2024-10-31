@@ -12,7 +12,6 @@ export const getExperience = () => [
       t("experience.items.perspektiva360.tasks.1"),
       t("experience.items.perspektiva360.tasks.2"),
       t("experience.items.perspektiva360.tasks.3"),
-      t("experience.items.perspektiva360.tasks.4"),
     ],
   },
   {

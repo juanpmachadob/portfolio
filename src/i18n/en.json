@@ -12,7 +12,7 @@
     "hero": {
         "role": "Software Developer",
         "description-1": "I have <u>+2 years of work experience</u>.",
-        "description-2": "I really like to create challenging projects that improves my learning and professional growth.",
+        "description-2": "I really like to create innovative solutions that add value and promote my professional growth.",
         "description-3": "Thinking in a project? <b>Let's work together!</b>",
         "image-alt": "Photo of Juan Machado with crossed arms",
         "download-cv": "Download CV"
@@ -26,21 +26,20 @@
                 "role": "Full Stack Developer",
                 "date": "Jun. 2022 - Currently",
                 "tasks": [
-                    "Develop API and administration panel for an AR App, allowing to add markers and <b>geo-located locations</b> with media in AWS for a <b>United Nations NGO</b>.",
-                    "Develop <b>SaaS expense management system</b> for companies and employees, facilitating expense control and visualization of charts with general statistics.",
-                    "Develop a web app for a video production service, allowing users to request personalized videos> and manage them through <b>tools to add comments at specific points in their videos and PDF scripts</b>.",
-                    "Develop web tools to optimize internal processes, including a <b>networking app powered with AI, a quotation generator and a landing pages editor</b>.",
-                    "Implement custom functionalities in <b>Pano2VR 360° virtual tours</b>, integrating external services with its API."
+                    "Develop end-to-end web applications with <b>JavaScript, React, Node.js, and Firebase</b>, participating in all <b>stages of the development cycle</b> to deliver effective solutions for end-users.",
+                    "Consume and integrate APIs from internal and external services, implementing solutions for geolocation, <b>AI models like OpenAI</b>, media processing on AWS, payment gateways, and authentication systems.",
+                    "Build secure and scalable RESTful APIs with Node.js and Django, following <b>best development practices</b> to ensure efficient data access.",
+                    "Update and maintain web applications by fixing bugs, adding new features, and <b>optimizing important functionalities</b> to improve performance."
                 ]
             },
             "tigo": {
                 "role": "Data Analyst",
                 "date": "Internship: Oct. 2021 - Apr. 2022",
                 "tasks": [
-                    "Develop and maintain <b>web scrapper</b> for data extraction and reading from Mixpanel to Tableau through its API.",
-                    "Develop and maintain <b>Python automations</b> for daily tasks, decreasing execution times up to <b>95%</b>.",
-                    "Write <b>custom SQL queries</b> in Oracle DB, BigQuery and Amazon Athena for specific data extraction.",
-                    "Design dashboards with <b>automated charts</b> in Tableau and Mixpanel facilitating data analysis."
+                    "Develop and maintain web scrappers in Node.js for extracting and interpreting information across platforms, optimizing data flow.",
+                    "Create <b>Python automations</b> for daily tasks, achieving a significant reduction of over 90% in execution times and <b>boosting productivity</b>.",
+                    "Write <b>advanced SQL database queries</b> to extract specific data, supporting analysis and decision-making.",
+                    "Create dashboards with <b>automated charts</b> in Tableau and Mixpanel facilitating data analysis."
                 ]
             }
         }
