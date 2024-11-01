@@ -39,11 +39,7 @@ import { t } from "i18next";
           class="flex w-full flex-col items-center justify-center gap-4 md:flex-row md:justify-start"
         >
           <li class="relative flex">
-            <Button
-              href="https://drive.google.com/file/d/1KRMIzpcVxVHOgJbOIJg-P-UY5n16RmKv/view?usp=sharing"
-              target="_blank"
-              variant="gradient"
-            >
+            <Button href={t("hero.cv-url")} target="_blank" variant="gradient">
               <CurriculumIcon class="size-6 text-white" />
               {t("hero.download-cv")}
             </Button>
