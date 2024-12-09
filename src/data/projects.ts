@@ -6,7 +6,7 @@ export const getProjects = () => [
     name: "Vocablo",
     description: t("projects.items.vocablo.description"),
     image: "vocablo.webp",
-    page: "https://vocablo.vercel.app/",
+    page: "https://vocablo.xyz/",
     repository: "",
     tags: [
       "Next.js",
