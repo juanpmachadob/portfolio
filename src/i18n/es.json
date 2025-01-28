@@ -1,7 +1,7 @@
 {
     "seo": {
-        "title": "Juan Pablo Machado | Desarrollador de Software con +2 años de experiencia",
-        "description": "Soy desarrollador de software con +2 años de experiencia profesional. Me gusta desarrollar proyectos desafiantes. ¡Trabajemos juntos!",
+        "title": "Juan Pablo Machado | Desarrollador de Software con +2.5 años de experiencia",
+        "description": "Soy desarrollador de software con +2.5 años de experiencia profesional. Me gusta desarrollar proyectos desafiantes. ¡Trabajemos juntos!",
         "tags": "juan pablo machado, desarrollador software, desarrollador full stack, desarrollador frontend, desarrollador backend, portafolio, typescript, javascript, next.js, react, node.js, express.js, inteligencia artificial"
     },
     "header": {
@@ -11,7 +11,7 @@
     },
     "hero": {
         "role": "Software Developer",
-        "description-1": "Tengo <u>+2 años de experiencia laboral</u>.",
+        "description-1": "Tengo <u>+2.5 años de experiencia laboral</u>.",
         "description-2": "Me gusta crear soluciones innovadoras que aporten valor y fomenten mi crecimiento profesional.",
         "description-3": "¿Tienes un proyecto en mente? <b>¡Trabajemos juntos!</b>",
         "image-alt": "Foto de Juan Machado con los brazos cruzados",
@@ -20,25 +20,25 @@
     },
     "experience": {
         "title": "Experiencia",
-        "description": "Durante mis <b>+2 años de experiencia profesional</b>, he tenido la oportunidad de trabajar con empresas y equipos maravillosos, donde he logrado aportar valor y aprender de cada uno de ellos.",
+        "description": "Durante mis <b>+2.5 años de experiencia profesional</b>, he tenido la oportunidad de trabajar con empresas y equipos maravillosos, donde he logrado aportar valor y aprender de cada uno de ellos.",
         "logo-alt": "Logo de {{company}}",
         "items": {
             "perspektiva360": {
                 "role": "Desarrollador Full Stack",
                 "date": "Jun. 2022 - Actualmente",
                 "tasks": [
-                    "Desarrollar aplicaciones web con <b>JavaScript, React, Node.js y Firebase</b> de principio a fin, participando en todas las <b>etapas del ciclo de desarrollo</b> y logrando ofrecer soluciones efectivas para los usuarios finales.",
-                    "Consumir e integrar APIs de servicios internos y externos, implementando soluciones de geo-localización, <b>modelos de inteligencia artificial</b> como Open AI, procesamiento de medios en AWS, pasarelas de pago y sistemas de autenticación.",
-                    "Desarrollar APIs RESTful seguras y escalables con Node.js y Django, siguiendo <b>buenas prácticas de desarrollo</b> y garantizando un acceso eficiente a los datos.",
-                    "Actualizar y realizar mantenimiento sobre aplicaciones web, corrigiendo errores, incluyendo nuevas características y <b>optimizando funcionalidades clave</b> para mejorar su rendimiento."
+                    "<b>Desarrollar aplicaciones web de principio a fin</b> con tecnologías como React, Node.js, Express y Firebase, participando en todas las etapas del ciclo de desarrollo y logrando ofrecer soluciones efectivas para usuarios finales.",
+                    "<b>Desarrollar APIs RESTful escalables</b>, implementando soluciones de geolocalización, modelos de inteligencia artificial (OpenAI, Ollama), procesamiento de medios con FFmpeg en AWS S3, pasarelas de pago y sistemas de autenticación con JWT y Firebase Auth.",
+                    "<b>Diseñar e implementar pipelines de CI/CD para automatizar despliegues y entregas</b>, aumentando la agilidad en los ciclos de desarrollo y asegurando estabilidad en producción.",
+                    "<b>Participar activamente en todas las etapas del ciclo de desarrollo y mantenimiento</b>, asegurando un alto nivel de calidad en el código y mejorando el rendimiento de las aplicaciones con buenas prácticas y clean code."
                 ]
             },
             "tigo": {
                 "role": "Analista de datos",
                 "date": "Prácticas: Oct. 2021 - Abr. 2022",
                 "tasks": [
-                    "Desarrollar y mantener <b>web scrappers</b> en Node.js para la extracción e interpretación de información entre diferentes plataformas, optimizando el flujo de datos.",
-                    "Desarrollar <b>automatizaciones en Python</b> para tareas diarias, logrando una reducción significativa de más del 90% en tiempos de ejecución y <b>aumentando la productividad</b>.",
+                    "<b>Desarrollar y mantener web scrappers</b> en Node.js para la extracción e interpretación de información entre diferentes plataformas, optimizando el flujo de datos.",
+                    "Desarrollar <b>automatizaciones en Python</b> para tareas diarias, logrando una reducción significativa de más del 90% en tiempos de ejecución y <.>aumentando la productividad.",
                     "Diseñar <b>consultas avanzadas en bases de datos SQL</b> para la extracción de datos específicos, apoyando el análisis y la toma de decisiones.",
                     "Crear dashboards con <b>gráficos automatizados</b> en Tableau y Mixpanel facilitando el análisis de datos."
                 ]

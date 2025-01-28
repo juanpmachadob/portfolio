@@ -1,7 +1,7 @@
 {
     "seo": {
-        "title": "Juan Pablo Machado | Software Developer with +2 years of experience",
-        "description": "I'm a software developer with +2 years of professional experience. I like to develop challenging projects. Let's work together!",
+        "title": "Juan Pablo Machado | Software Developer with +2.5 years of experience",
+        "description": "I'm a software developer with +2.5 years of professional experience. I like to develop challenging projects. Let's work together!",
         "tags": "juan pablo machado, software developer, full stack developer, frontend developer, backend developer, portfolio, typescript, javascript, next.js, react, node.js, express.js, artificial intelligence"
     },
     "header": {
@@ -11,7 +11,7 @@
     },
     "hero": {
         "role": "Software Developer",
-        "description-1": "I have <u>+2 years of work experience</u>.",
+        "description-1": "I have <u>+2.5 years of work experience</u>.",
         "description-2": "I really like to create innovative solutions that add value and promote my professional growth.",
         "description-3": "Thinking in a project? <b>Let's work together!</b>",
         "image-alt": "Photo of Juan Machado with crossed arms",
@@ -20,24 +20,24 @@
     },
     "experience": {
         "title": "Experience",
-        "description": "During my <b>+2 years of professional experience</b>, I have worked with wonderful companies and teams, where I have been able to contribute and learn from each one.",
+        "description": "During my <b>+2.5 years of professional experience</b>, I have worked with wonderful companies and teams, where I have been able to contribute and learn from each one.",
         "logo-alt": "{{company}} Logo",
         "items": {
             "perspektiva360": {
                 "role": "Full Stack Developer",
                 "date": "Jun. 2022 - Currently",
                 "tasks": [
-                    "Develop end-to-end web applications with <b>JavaScript, React, Node.js, and Firebase</b>, participating in all <b>stages of the development cycle</b> to deliver effective solutions for end-users.",
-                    "Consume and integrate APIs from internal and external services, implementing solutions for geolocation, <b>AI models like OpenAI</b>, media processing on AWS, payment gateways, and authentication systems.",
-                    "Build secure and scalable RESTful APIs with Node.js and Django, following <b>best development practices</b> to ensure efficient data access.",
-                    "Update and maintain web applications by fixing bugs, adding new features, and <b>optimizing important functionalities</b> to improve performance."
+                    "<b>Develop end-to-end web applications</b> using technologies like React, Node.js, Express, and Firebase, participating in all stages of the development cycle and delivering effective solutions for end users.",
+                    "<b>Build scalable RESTful APIs</b>, implementing geo-location solutions, artificial intelligence models (OpenAI, Ollama), media processing with FFmpeg on AWS S3, payment gateways, and authentication systems using JWT and Firebase Auth.",
+                    "<b>Design and implement CI/CD pipelines to automate deployments and deliveries</b>, increasing agility in development cycles and ensuring production stability.",
+                    "<b>Actively participate in all stages of the development and maintenance cycle</b>, ensuring high-quality code and improving application performance through best practices and clean code principles."
                 ]
             },
             "tigo": {
                 "role": "Data Analyst",
                 "date": "Internship: Oct. 2021 - Apr. 2022",
                 "tasks": [
-                    "Develop and maintain web scrappers in Node.js for extracting and interpreting information across platforms, optimizing data flow.",
+                    "<b>Develop and maintain web scrappers in Node.js</b> for extracting and interpreting information across platforms, optimizing data flow.",
                     "Create <b>Python automations</b> for daily tasks, achieving a significant reduction of over 90% in execution times and <b>boosting productivity</b>.",
                     "Write <b>advanced SQL database queries</b> to extract specific data, supporting analysis and decision-making.",
                     "Create dashboards with <b>automated charts</b> in Tableau and Mixpanel facilitating data analysis."
