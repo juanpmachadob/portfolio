@@ -28,7 +28,7 @@
                 "date": "Jun. 2022 - Actualmente",
                 "tasks": [
                     "<b>Desarrollar aplicaciones web de principio a fin</b> con tecnologías como React, Node.js, Express y Firebase, participando en todas las etapas del ciclo de desarrollo y logrando ofrecer soluciones efectivas para usuarios finales.",
-                    "<b>Desarrollar APIs RESTful escalables</b>, implementando soluciones de geolocalización, modelos de inteligencia artificial (OpenAI, Ollama), procesamiento de medios con FFmpeg en AWS S3, pasarelas de pago y sistemas de autenticación con JWT y Firebase Auth.",
+                    "<b>Desarrollar APIs RESTful escalables</b>, implementando soluciones de geolocalización, modelos de inteligencia artificial (OpenAI, Gemini, Llama), procesamiento de medios con FFmpeg en AWS S3, pasarelas de pago y sistemas de autenticación con JWT y Firebase Auth.",
                     "<b>Diseñar e implementar pipelines de CI/CD para automatizar despliegues y entregas</b>, aumentando la agilidad en los ciclos de desarrollo y asegurando estabilidad en producción.",
                     "<b>Participar activamente en todas las etapas del ciclo de desarrollo y mantenimiento</b>, asegurando un alto nivel de calidad en el código y mejorando el rendimiento de las aplicaciones con buenas prácticas y clean code."
                 ]

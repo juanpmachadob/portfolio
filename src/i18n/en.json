@@ -28,7 +28,7 @@
                 "date": "Jun. 2022 - Currently",
                 "tasks": [
                     "<b>Develop end-to-end web applications</b> using technologies like React, Node.js, Express, and Firebase, participating in all stages of the development cycle and delivering effective solutions for end users.",
-                    "<b>Build scalable RESTful APIs</b>, implementing geo-location solutions, artificial intelligence models (OpenAI, Ollama), media processing with FFmpeg on AWS S3, payment gateways, and authentication systems using JWT and Firebase Auth.",
+                    "<b>Build scalable RESTful APIs</b>, implementing geo-location solutions, artificial intelligence models (OpenAI, Gemini, Llama), media processing with FFmpeg on AWS S3, payment gateways, and authentication systems using JWT and Firebase Auth.",
                     "<b>Design and implement CI/CD pipelines to automate deployments and deliveries</b>, increasing agility in development cycles and ensuring production stability.",
                     "<b>Actively participate in all stages of the development and maintenance cycle</b>, ensuring high-quality code and improving application performance through best practices and clean code principles."
                 ]
