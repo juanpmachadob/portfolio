@@ -1,100 +1,99 @@
 {
-    "seo": {
-        "title": "Juan Pablo Machado | Software Developer with +2.5 years of experience",
-        "description": "I'm a software developer with +2.5 years of professional experience. I like to develop challenging projects. Let's work together!",
-        "tags": "juan pablo machado, software developer, full stack developer, frontend developer, backend developer, portfolio, typescript, javascript, next.js, react, node.js, express.js, artificial intelligence"
-    },
-    "header": {
-        "change-language": "Change language",
-        "toggle-menu": "Toggle main menu",
-        "language-alt": "Language icon {{lng}}"
-    },
-    "hero": {
-        "role": "Software Developer",
-        "description-1": "I have <u>+2.5 years of work experience</u>.",
-        "description-2": "I really like to create innovative solutions that add value and promote my professional growth.",
-        "description-3": "Thinking in a project? <b>Let's work together!</b>",
-        "image-alt": "Photo of Juan Machado with crossed arms",
-        "download-cv": "Download CV",
-        "cv-url": "https://drive.google.com/file/d/1GlJc2Du6936PzvdRKw2H_zl4ZJtejHuY/view?usp=sharing"
-    },
-    "experience": {
-        "title": "Experience",
-        "description": "During my <b>+2.5 years of professional experience</b>, I have worked with wonderful companies and teams, where I have been able to contribute and learn from each one.",
-        "logo-alt": "{{company}} Logo",
-        "items": {
-            "perspektiva360": {
-                "role": "Full Stack Developer",
-                "date": "Jun. 2022 - Currently",
-                "tasks": [
-                    "<b>Develop end-to-end web applications</b> using technologies like React, Node.js, Express, and Firebase, participating in all stages of the development cycle and delivering effective solutions for end users.",
-                    "<b>Build scalable RESTful APIs</b>, implementing geo-location solutions, artificial intelligence models (OpenAI, Gemini, Llama), media processing with FFmpeg on AWS S3, payment gateways, and authentication systems using JWT and Firebase Auth.",
-                    "<b>Design and implement CI/CD pipelines to automate deployments and deliveries</b>, increasing agility in development cycles and ensuring production stability.",
-                    "<b>Actively participate in all stages of the development and maintenance cycle</b>, ensuring high-quality code and improving application performance through best practices and clean code principles."
-                ]
-            },
-            "tigo": {
-                "role": "Data Analyst",
-                "date": "Internship: Oct. 2021 - Apr. 2022",
-                "tasks": [
-                    "<b>Develop and maintain web scrappers in Node.js</b> for extracting and interpreting information across platforms, optimizing data flow.",
-                    "Create <b>Python automations</b> for daily tasks, achieving a significant reduction of over 90% in execution times and <b>boosting productivity</b>.",
-                    "Write <b>advanced SQL database queries</b> to extract specific data, supporting analysis and decision-making.",
-                    "Create dashboards with <b>automated charts</b> in Tableau and Mixpanel facilitating data analysis."
-                ]
-            }
-        }
-    },
-    "projects": {
-        "title": "Projects",
-        "description": "I have been working the <b>last 4 years</b> on impactful projects which have improved my knowledge and skills by enhancing my expertise and my professional growth.",
-        "mockup-alt": "{{project}} Mockup",
-        "view-project": "View project",
-        "view-repository": "View repository",
-        "not-found": "Project not found",
-        "items": {
-            "vocablo": {
-                "description": "Vocabulary and grammar learning, note your own words and generate AI-driven lessons to practice them."
-            },
-            "trainant": {
-                "description": "Detailed control and creation of workout routines, weight and repetition tracking, exercise visualization."
-            },
-            "jumping-planet": {
-                "description": "2D platform game where players jump between planets to reach their spaceship before oxygen depletes."
-            },
-            "trello-clone": {
-                "description": "Manage your workflow by creating Kanban boards to organize your tasks in a Trello-like web application."
-            },
-            "game-blog": {
-                "description": "Search, add, visualize or rate your favorite video games in a blog-style web application."
-            },
-            "budget-manager": {
-                "description": "Visualize and manage your budget by tracking your incomes and expenses effectively."
-            },
-            "unsplash-clone": {
-                "description": "Search, visualize, upload and download images using the definitive web application clone of Unsplash."
-            },
-            "journal-book": {
-                "description": "Write your own journal, visualize daily entries and notes created in your personal book."
-            },
-            "autonite": {
-                "description": "Manage purchases, sales, inventory and human resources while visualizing detailed reports with charts."
-            }
-        }
-    },
-    "about": {
-        "title": "About me",
-        "description-1": "My name is Juan Pablo, I'm from Bogotá, Colombia!",
-        "description-2": "I started my programming journey in 2020 by <b>developing a game in Unity</b>. Then, I moved to web development and completed my <b>technical degree in analysis and development of information systems</b>.",
-        "description-3": "During my career, I have managed to work on various innovative and creative projects. I'm particularly proud of my contribution in the development of a project for a <b>United Nations NGO focused on promoting sustainable development and public transparency</b>.",
-        "description-4": "As a software developer, my goal is to keep creating <b>effective solutions for real-word problems</b>, always open to learning new things and improving my tech and personal skills.",
-        "tech-stack-info": "This is my <b>tech-stack</b>:",
-        "image-alt": "Selfie of Juan Machado looking straight ahead"
-    },
-    "footer": {
-        "title": "Let's get in touch!",
-        "description-1": "Feel free to contact me regarding <b>any project</b>.",
-        "description-2": "I'm always open to new <b>challenges</b> and collaborations.",
-        "coded-by": "Portfolio <span class='text-white/50'>⌨</span> by"
+  "seo": {
+    "title": "Juan Pablo Machado | Software Developer with +2.5 years of experience",
+    "description": "I'm a software developer with +2.5 years of professional experience. I like to develop challenging projects. Let's work together!",
+    "tags": "juan pablo machado, software developer, full stack developer, frontend developer, backend developer, portfolio, typescript, javascript, next.js, react, node.js, express.js, artificial intelligence"
+  },
+  "header": {
+    "change-language": "Change language",
+    "toggle-menu": "Toggle main menu",
+    "language-alt": "Language icon {{lng}}"
+  },
+  "hero": {
+    "role": "Software Developer",
+    "description-1": "I have <u>+2.5 years of work experience</u>.",
+    "description-2": "I really like to create innovative solutions that add value and promote my professional growth.",
+    "description-3": "Thinking in a project? <b>Let's work together!</b>",
+    "image-alt": "Photo of Juan Machado with crossed arms",
+    "cv-url": "https://drive.google.com/file/d/1GlJc2Du6936PzvdRKw2H_zl4ZJtejHuY/view?usp=sharing"
+  },
+  "experience": {
+    "title": "Experience",
+    "description": "During my <b>+2.5 years of professional experience</b>, I have worked with wonderful companies and teams, where I have been able to contribute and learn from each one.",
+    "logo-alt": "{{company}} Logo",
+    "items": {
+      "perspektiva360": {
+        "role": "Full Stack Developer",
+        "date": "Jun. 2022 - Currently",
+        "tasks": [
+          "<b>Develop end-to-end web applications</b> using technologies like React, Node.js, Express, and Firebase, participating in all stages of the development cycle and delivering effective solutions for end users.",
+          "<b>Build scalable RESTful APIs</b>, implementing geo-location solutions, artificial intelligence models (OpenAI, Gemini, Llama), media processing with FFmpeg on AWS S3, payment gateways, and authentication systems using JWT and Firebase Auth.",
+          "<b>Design and implement CI/CD pipelines to automate deployments and deliveries</b>, increasing agility in development cycles and ensuring production stability.",
+          "<b>Actively participate in all stages of the development and maintenance cycle</b>, ensuring high-quality code and improving application performance through best practices and clean code principles."
+        ]
+      },
+      "tigo": {
+        "role": "Data Analyst",
+        "date": "Internship: Oct. 2021 - Apr. 2022",
+        "tasks": [
+          "<b>Develop and maintain web scrappers in Node.js</b> for extracting and interpreting information across platforms, optimizing data flow.",
+          "Create <b>Python automations</b> for daily tasks, achieving a significant reduction of over 90% in execution times and <b>boosting productivity</b>.",
+          "Write <b>advanced SQL database queries</b> to extract specific data, supporting analysis and decision-making.",
+          "Create dashboards with <b>automated charts</b> in Tableau and Mixpanel facilitating data analysis."
+        ]
+      }
     }
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "I have been working the <b>last 4 years</b> on impactful projects which have improved my knowledge and skills by enhancing my expertise and my professional growth.",
+    "mockup-alt": "{{project}} Mockup",
+    "view-project": "View project",
+    "view-repository": "View repository",
+    "not-found": "Project not found",
+    "items": {
+      "vocablo": {
+        "description": "Vocabulary and grammar learning, note your own words and generate AI-driven lessons to practice them."
+      },
+      "trainant": {
+        "description": "Detailed control and creation of workout routines, weight and repetition tracking, exercise visualization."
+      },
+      "jumping-planet": {
+        "description": "2D platform game where players jump between planets to reach their spaceship before oxygen depletes."
+      },
+      "trello-clone": {
+        "description": "Manage your workflow by creating Kanban boards to organize your tasks in a Trello-like web application."
+      },
+      "game-blog": {
+        "description": "Search, add, visualize or rate your favorite video games in a blog-style web application."
+      },
+      "budget-manager": {
+        "description": "Visualize and manage your budget by tracking your incomes and expenses effectively."
+      },
+      "unsplash-clone": {
+        "description": "Search, visualize, upload and download images using the definitive web application clone of Unsplash."
+      },
+      "journal-book": {
+        "description": "Write your own journal, visualize daily entries and notes created in your personal book."
+      },
+      "autonite": {
+        "description": "Manage purchases, sales, inventory and human resources while visualizing detailed reports with charts."
+      }
+    }
+  },
+  "about": {
+    "title": "About me",
+    "description-1": "My name is Juan Pablo, I'm from Bogotá, Colombia!",
+    "description-2": "I started my programming journey in 2020 by <b>developing a game in Unity</b>. Then, I moved to web development and completed my <b>technical degree in analysis and development of information systems</b>.",
+    "description-3": "During my career, I have managed to work on various innovative and creative projects. I'm particularly proud of my contribution in the development of a project for a <b>United Nations NGO focused on promoting sustainable development and public transparency</b>.",
+    "description-4": "As a software developer, my goal is to keep creating <b>effective solutions for real-word problems</b>, always open to learning new things and improving my tech and personal skills.",
+    "tech-stack-info": "This is my <b>tech-stack</b>:",
+    "image-alt": "Selfie of Juan Machado looking straight ahead"
+  },
+  "footer": {
+    "title": "Let's get in touch!",
+    "description-1": "Feel free to contact me regarding <b>any project</b>.",
+    "description-2": "I'm always open to new <b>challenges</b> and collaborations.",
+    "coded-by": "Portfolio <span class='text-white/50'>⌨</span> by"
+  }
 }

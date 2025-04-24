@@ -1,100 +1,99 @@
 {
-    "seo": {
-        "title": "Juan Pablo Machado | Desarrollador de Software con +2.5 años de experiencia",
-        "description": "Soy desarrollador de software con +2.5 años de experiencia profesional. Me gusta desarrollar proyectos desafiantes. ¡Trabajemos juntos!",
-        "tags": "juan pablo machado, desarrollador software, desarrollador full stack, desarrollador frontend, desarrollador backend, portafolio, typescript, javascript, next.js, react, node.js, express.js, inteligencia artificial"
-    },
-    "header": {
-        "change-language": "Cambiar idioma",
-        "toggle-menu": "Alternar menu",
-        "language-alt": "Icono de idioma {{lng}}"
-    },
-    "hero": {
-        "role": "Software Developer",
-        "description-1": "Tengo <u>+2.5 años de experiencia laboral</u>.",
-        "description-2": "Me gusta crear soluciones innovadoras que aporten valor y fomenten mi crecimiento profesional.",
-        "description-3": "¿Tienes un proyecto en mente? <b>¡Trabajemos juntos!</b>",
-        "image-alt": "Foto de Juan Machado con los brazos cruzados",
-        "download-cv": "Descargar CV",
-        "cv-url": "https://drive.google.com/file/d/1l_LzgXI3_5JH4bfYz_AKdXNjCRnf-otz/view?usp=sharing"
-    },
-    "experience": {
-        "title": "Experiencia",
-        "description": "Durante mis <b>+2.5 años de experiencia profesional</b>, he tenido la oportunidad de trabajar con empresas y equipos maravillosos, donde he logrado aportar valor y aprender de cada uno de ellos.",
-        "logo-alt": "Logo de {{company}}",
-        "items": {
-            "perspektiva360": {
-                "role": "Desarrollador Full Stack",
-                "date": "Jun. 2022 - Actualmente",
-                "tasks": [
-                    "<b>Desarrollar aplicaciones web de principio a fin</b> con tecnologías como React, Node.js, Express y Firebase, participando en todas las etapas del ciclo de desarrollo y logrando ofrecer soluciones efectivas para usuarios finales.",
-                    "<b>Desarrollar APIs RESTful escalables</b>, implementando soluciones de geolocalización, modelos de inteligencia artificial (OpenAI, Gemini, Llama), procesamiento de medios con FFmpeg en AWS S3, pasarelas de pago y sistemas de autenticación con JWT y Firebase Auth.",
-                    "<b>Diseñar e implementar pipelines de CI/CD para automatizar despliegues y entregas</b>, aumentando la agilidad en los ciclos de desarrollo y asegurando estabilidad en producción.",
-                    "<b>Participar activamente en todas las etapas del ciclo de desarrollo y mantenimiento</b>, asegurando un alto nivel de calidad en el código y mejorando el rendimiento de las aplicaciones con buenas prácticas y clean code."
-                ]
-            },
-            "tigo": {
-                "role": "Analista de datos",
-                "date": "Prácticas: Oct. 2021 - Abr. 2022",
-                "tasks": [
-                    "<b>Desarrollar y mantener web scrappers</b> en Node.js para la extracción e interpretación de información entre diferentes plataformas, optimizando el flujo de datos.",
-                    "Desarrollar <b>automatizaciones en Python</b> para tareas diarias, logrando una reducción significativa de más del 90% en tiempos de ejecución y <.>aumentando la productividad.",
-                    "Diseñar <b>consultas avanzadas en bases de datos SQL</b> para la extracción de datos específicos, apoyando el análisis y la toma de decisiones.",
-                    "Crear dashboards con <b>gráficos automatizados</b> en Tableau y Mixpanel facilitando el análisis de datos."
-                ]
-            }
-        }
-    },
-    "projects": {
-        "title": "Proyectos",
-        "description": "He trabajado los <b>últimos 4 años</b> en proyectos increíbles, que han enriquecido mis habilidades y conocimientos, impulsando mis competencias y mi desarrollo como profesional.",
-        "mockup-alt": "Mockup de {{project}}",
-        "view-project": "Ver proyecto",
-        "view-repository": "Ver repositorio",
-        "not-found": "Proyecto no encontrado",
-        "items": {
-            "vocablo": {
-                "description": "Aprendizaje de vocabulario y gramática, anota tus propias palabras y genera sesiones de práctica impulsadas con IA."
-            },
-            "trainant": {
-                "description": "Control y creación de rutinas de ejercicio, seguimiento de peso y repeticiones, visualización de ejercicios."
-            },
-            "jumping-planet": {
-                "description": "Videojuego 2D donde los jugadores saltan entre planetas para llegar a su nave antes de que se agote el oxígeno."
-            },
-            "trello-clone": {
-                "description": "Administra tu flujo de trabajo creando tableros Kanban para organizar tus tareas en una app web similar a Trello."
-            },
-            "game-blog": {
-                "description": "Busca, añade, visualiza o califica tus videojuegos favoritos en una aplicación web con estilo de blog."
-            },
-            "budget-manager": {
-                "description": "Visualiza y administra tu presupuesto rastreando tus ingresos y gastos de manera efectiva."
-            },
-            "unsplash-clone": {
-                "description": "Busca, visualiza, sube y descarga imágenes utilizando la aplicación web y clon definitivo de Unsplash."
-            },
-            "journal-book": {
-                "description": "Escribe tu propio diario, visualiza tus escritos diarios y notas creadas en tu libro personal."
-            },
-            "autonite": {
-                "description": "Gestiona compras, ventas, inventario y recursos humanos mientras visualizas informes detallados con gráficos."
-            }
-        }
-    },
-    "about": {
-        "title": "Sobre mi",
-        "description-1": "¡Mi nombre es Juan Pablo y vivo en Bogotá, Colombia!",
-        "description-2": "Inicié en el mundo de la programación en 2020, <b>desarrollando un videojuego en Unity</b>. Posteriormente, migré al desarrollo web y culminé mi formación <b>tecnológica en análisis y desarrollo de sistemas de información</b>.",
-        "description-3": "Durante mi carrera, he trabajado en diversos proyectos innovadores y creativos. Destaco mi participación en el desarrollo de un proyecto para una <b>ONG de las Naciones Unidas enfocado en promover el desarrollo sostenible y la transparencia pública</b>.",
-        "description-4": "Como desarrollador de software, mi objetivo es continuar creando <b>soluciones efectivas para problemas reales</b>, siempre dispuesto a aprender y mejorar mis habilidades técnicas y personales.",
-        "tech-stack-info": "Este es mi <b>stack tecnológico</b>:",
-        "image-alt": "Selfie de Juan Machado mirando hacia el frente"
-    },
-    "footer": {
-        "title": "¡Sigamos en contacto!",
-        "description-1": "No dudes en escribirme para <b>cualquier proyecto</b>.",
-        "description-2": "Siempre estoy abierto a nuevos <b>desafíos</b> y colaboraciones.",
-        "coded-by": "Portafolio <span class='text-white/50'>⌨</span> por"
+  "seo": {
+    "title": "Juan Pablo Machado | Desarrollador de Software con +2.5 años de experiencia",
+    "description": "Soy desarrollador de software con +2.5 años de experiencia profesional. Me gusta desarrollar proyectos desafiantes. ¡Trabajemos juntos!",
+    "tags": "juan pablo machado, desarrollador software, desarrollador full stack, desarrollador frontend, desarrollador backend, portafolio, typescript, javascript, next.js, react, node.js, express.js, inteligencia artificial"
+  },
+  "header": {
+    "change-language": "Cambiar idioma",
+    "toggle-menu": "Alternar menu",
+    "language-alt": "Icono de idioma {{lng}}"
+  },
+  "hero": {
+    "role": "Software Developer",
+    "description-1": "Tengo <u>+2.5 años de experiencia laboral</u>.",
+    "description-2": "Me gusta crear soluciones innovadoras que aporten valor y fomenten mi crecimiento profesional.",
+    "description-3": "¿Tienes un proyecto en mente? <b>¡Trabajemos juntos!</b>",
+    "image-alt": "Foto de Juan Machado con los brazos cruzados",
+    "cv-url": "https://drive.google.com/file/d/1l_LzgXI3_5JH4bfYz_AKdXNjCRnf-otz/view?usp=sharing"
+  },
+  "experience": {
+    "title": "Experiencia",
+    "description": "Durante mis <b>+2.5 años de experiencia profesional</b>, he tenido la oportunidad de trabajar con empresas y equipos maravillosos, donde he logrado aportar valor y aprender de cada uno de ellos.",
+    "logo-alt": "Logo de {{company}}",
+    "items": {
+      "perspektiva360": {
+        "role": "Desarrollador Full Stack",
+        "date": "Jun. 2022 - Actualmente",
+        "tasks": [
+          "<b>Desarrollar aplicaciones web de principio a fin</b> con tecnologías como React, Node.js, Express y Firebase, participando en todas las etapas del ciclo de desarrollo y logrando ofrecer soluciones efectivas para usuarios finales.",
+          "<b>Desarrollar APIs RESTful escalables</b>, implementando soluciones de geolocalización, modelos de inteligencia artificial (OpenAI, Gemini, Llama), procesamiento de medios con FFmpeg en AWS S3, pasarelas de pago y sistemas de autenticación con JWT y Firebase Auth.",
+          "<b>Diseñar e implementar pipelines de CI/CD para automatizar despliegues y entregas</b>, aumentando la agilidad en los ciclos de desarrollo y asegurando estabilidad en producción.",
+          "<b>Participar activamente en todas las etapas del ciclo de desarrollo y mantenimiento</b>, asegurando un alto nivel de calidad en el código y mejorando el rendimiento de las aplicaciones con buenas prácticas y clean code."
+        ]
+      },
+      "tigo": {
+        "role": "Analista de datos",
+        "date": "Prácticas: Oct. 2021 - Abr. 2022",
+        "tasks": [
+          "<b>Desarrollar y mantener web scrappers</b> en Node.js para la extracción e interpretación de información entre diferentes plataformas, optimizando el flujo de datos.",
+          "Desarrollar <b>automatizaciones en Python</b> para tareas diarias, logrando una reducción significativa de más del 90% en tiempos de ejecución y <.>aumentando la productividad.",
+          "Diseñar <b>consultas avanzadas en bases de datos SQL</b> para la extracción de datos específicos, apoyando el análisis y la toma de decisiones.",
+          "Crear dashboards con <b>gráficos automatizados</b> en Tableau y Mixpanel facilitando el análisis de datos."
+        ]
+      }
     }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "description": "He trabajado los <b>últimos 4 años</b> en proyectos increíbles, que han enriquecido mis habilidades y conocimientos, impulsando mis competencias y mi desarrollo como profesional.",
+    "mockup-alt": "Mockup de {{project}}",
+    "view-project": "Ver proyecto",
+    "view-repository": "Ver repositorio",
+    "not-found": "Proyecto no encontrado",
+    "items": {
+      "vocablo": {
+        "description": "Aprendizaje de vocabulario y gramática, anota tus propias palabras y genera sesiones de práctica impulsadas con IA."
+      },
+      "trainant": {
+        "description": "Control y creación de rutinas de ejercicio, seguimiento de peso y repeticiones, visualización de ejercicios."
+      },
+      "jumping-planet": {
+        "description": "Videojuego 2D donde los jugadores saltan entre planetas para llegar a su nave antes de que se agote el oxígeno."
+      },
+      "trello-clone": {
+        "description": "Administra tu flujo de trabajo creando tableros Kanban para organizar tus tareas en una app web similar a Trello."
+      },
+      "game-blog": {
+        "description": "Busca, añade, visualiza o califica tus videojuegos favoritos en una aplicación web con estilo de blog."
+      },
+      "budget-manager": {
+        "description": "Visualiza y administra tu presupuesto rastreando tus ingresos y gastos de manera efectiva."
+      },
+      "unsplash-clone": {
+        "description": "Busca, visualiza, sube y descarga imágenes utilizando la aplicación web y clon definitivo de Unsplash."
+      },
+      "journal-book": {
+        "description": "Escribe tu propio diario, visualiza tus escritos diarios y notas creadas en tu libro personal."
+      },
+      "autonite": {
+        "description": "Gestiona compras, ventas, inventario y recursos humanos mientras visualizas informes detallados con gráficos."
+      }
+    }
+  },
+  "about": {
+    "title": "Sobre mi",
+    "description-1": "¡Mi nombre es Juan Pablo y vivo en Bogotá, Colombia!",
+    "description-2": "Inicié en el mundo de la programación en 2020, <b>desarrollando un videojuego en Unity</b>. Posteriormente, migré al desarrollo web y culminé mi formación <b>tecnológica en análisis y desarrollo de sistemas de información</b>.",
+    "description-3": "Durante mi carrera, he trabajado en diversos proyectos innovadores y creativos. Destaco mi participación en el desarrollo de un proyecto para una <b>ONG de las Naciones Unidas enfocado en promover el desarrollo sostenible y la transparencia pública</b>.",
+    "description-4": "Como desarrollador de software, mi objetivo es continuar creando <b>soluciones efectivas para problemas reales</b>, siempre dispuesto a aprender y mejorar mis habilidades técnicas y personales.",
+    "tech-stack-info": "Este es mi <b>stack tecnológico</b>:",
+    "image-alt": "Selfie de Juan Machado mirando hacia el frente"
+  },
+  "footer": {
+    "title": "¡Sigamos en contacto!",
+    "description-1": "No dudes en escribirme para <b>cualquier proyecto</b>.",
+    "description-2": "Siempre estoy abierto a nuevos <b>desafíos</b> y colaboraciones.",
+    "coded-by": "Portafolio <span class='text-white/50'>⌨</span> por"
+  }
 }
