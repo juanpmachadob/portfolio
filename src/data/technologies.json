@@ -1,5 +1,4 @@
 [
-    "AI SDK",
     "TypeScript",
     "JavaScript",
     "Node.js",
@@ -13,6 +12,9 @@
     "Firebase",
     "Supabase",
     "AWS",
+    "AWS EC2",
+    "AWS S3",
+    "AWS Lambda",
     "Docker",
     "Kubernetes",
     "MySQL",
@@ -24,5 +26,7 @@
     "Tailwind",
     "Sass",
     "SOLID",
-    "Clean Code"
+    "Clean Code",
+    "CI/CD",
+    "Socket.io"
 ]
