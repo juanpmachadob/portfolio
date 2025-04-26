@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "Juan Pablo Machado | Desarrollador de Software con +2.5 años de experiencia",
-    "description": "Soy desarrollador de software con +2.5 años de experiencia profesional. Me gusta desarrollar proyectos desafiantes. ¡Trabajemos juntos!",
+    "title": "Juan Pablo Machado | Desarrollador de Software con 3 años de experiencia",
+    "description": "Soy desarrollador de software con 3 años de experiencia profesional. Me gusta desarrollar proyectos desafiantes. ¡Trabajemos juntos!",
     "tags": "juan pablo machado, desarrollador software, desarrollador full stack, desarrollador frontend, desarrollador backend, portafolio, typescript, javascript, next.js, react, node.js, express.js, inteligencia artificial"
   },
   "header": {
@@ -11,7 +11,7 @@
   },
   "hero": {
     "role": "Software Developer",
-    "description-1": "Tengo <u>+2.5 años de experiencia laboral</u>.",
+    "description-1": "Tengo <u>3 años de experiencia laboral</u>.",
     "description-2": "Me gusta crear soluciones innovadoras que aporten valor y fomenten mi crecimiento profesional.",
     "description-3": "¿Tienes un proyecto en mente? <b>¡Trabajemos juntos!</b>",
     "image-alt": "Foto de Juan Machado con los brazos cruzados",
@@ -19,17 +19,18 @@
   },
   "experience": {
     "title": "Experiencia",
-    "description": "Durante mis <b>+2.5 años de experiencia profesional</b>, he tenido la oportunidad de trabajar con empresas y equipos maravillosos, donde he logrado aportar valor y aprender de cada uno de ellos.",
+    "description": "Durante mis <b>3 años de experiencia profesional</b>, he tenido la oportunidad de trabajar con empresas y equipos maravillosos, donde he logrado aportar valor y aprender de cada uno de ellos.",
     "logo-alt": "Logo de {{company}}",
     "items": {
       "perspektiva360": {
         "role": "Desarrollador Full Stack",
-        "date": "Jun. 2022 - Actualmente",
+        "date": "Jun. 2022 - Abr. 2025",
         "tasks": [
-          "<b>Desarrollar aplicaciones web de principio a fin</b> con tecnologías como React, Node.js, Express y Firebase, participando en todas las etapas del ciclo de desarrollo y logrando ofrecer soluciones efectivas para usuarios finales.",
-          "<b>Desarrollar APIs RESTful escalables</b>, implementando soluciones de geolocalización, modelos de inteligencia artificial (OpenAI, Gemini, Llama), procesamiento de medios con FFmpeg en AWS S3, pasarelas de pago y sistemas de autenticación con JWT y Firebase Auth.",
-          "<b>Diseñar e implementar pipelines de CI/CD para automatizar despliegues y entregas</b>, aumentando la agilidad en los ciclos de desarrollo y asegurando estabilidad en producción.",
-          "<b>Participar activamente en todas las etapas del ciclo de desarrollo y mantenimiento</b>, asegurando un alto nivel de calidad en el código y mejorando el rendimiento de las aplicaciones con buenas prácticas y clean code."
+          "<b>Diseñar y construir arquitecturas modulares y escalables</b>, desarrollando APIs RESTful conectadas a bases de datos SQL y NoSQL, integrando soluciones de IA, geolocalización, procesamiento multimedia, pasarelas de pago y autenticación.",
+          "<b>Desarrollar interfaces web responsivas y accesibles</b> utilizando React.js, aplicando principios de usabilidad, rendimiento y creando componentes reutilizables para mejorar la experiencia del usuario y facilitar el mantenimiento del código.",
+          "<b>Desarrollar aplicaciones backend robustas</b> con Node.js y Django, gestionando la lógica de negocio, seguridad y persistencia de datos utilizando herramientas de backend serverless.",
+          "<b>Implementar soluciones en la nube</b> con servicios de AWS y Firebase, configurando entornos de despliegue automatizados con pipelines de CI/CD para permitir entregas rápidas y confiables.",
+          "<b>Liderar el desarrollo de soluciones fullstack</b>, colaborando estrechamente con diseñadores, desarrolladores y creativos para contribuir a la definición de funcionalidades, optimización de procesos y asegurando la entrega de productos escalables, eficientes y de alta calidad"
         ]
       },
       "tigo": {

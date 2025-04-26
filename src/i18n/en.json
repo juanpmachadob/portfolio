@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "Juan Pablo Machado | Software Developer with +2.5 years of experience",
-    "description": "I'm a software developer with +2.5 years of professional experience. I like to develop challenging projects. Let's work together!",
+    "title": "Juan Pablo Machado | Software Developer with 3 years of experience",
+    "description": "I'm a software developer with 3 years of professional experience. I like to develop challenging projects. Let's work together!",
     "tags": "juan pablo machado, software developer, full stack developer, frontend developer, backend developer, portfolio, typescript, javascript, next.js, react, node.js, express.js, artificial intelligence"
   },
   "header": {
@@ -11,7 +11,7 @@
   },
   "hero": {
     "role": "Software Developer",
-    "description-1": "I have <u>+2.5 years of work experience</u>.",
+    "description-1": "I have <u>3 years of work experience</u>.",
     "description-2": "I really like to create innovative solutions that add value and promote my professional growth.",
     "description-3": "Thinking in a project? <b>Let's work together!</b>",
     "image-alt": "Photo of Juan Machado with crossed arms",
@@ -19,17 +19,18 @@
   },
   "experience": {
     "title": "Experience",
-    "description": "During my <b>+2.5 years of professional experience</b>, I have worked with wonderful companies and teams, where I have been able to contribute and learn from each one.",
+    "description": "During my <b>3 years of professional experience</b>, I have worked with wonderful companies and teams, where I have been able to contribute and learn from each one.",
     "logo-alt": "{{company}} Logo",
     "items": {
       "perspektiva360": {
         "role": "Full Stack Developer",
-        "date": "Jun. 2022 - Currently",
+        "date": "Jun. 2022 - Apr. 2025",
         "tasks": [
-          "<b>Develop end-to-end web applications</b> using technologies like React, Node.js, Express, and Firebase, participating in all stages of the development cycle and delivering effective solutions for end users.",
-          "<b>Build scalable RESTful APIs</b>, implementing geo-location solutions, artificial intelligence models (OpenAI, Gemini, Llama), media processing with FFmpeg on AWS S3, payment gateways, and authentication systems using JWT and Firebase Auth.",
-          "<b>Design and implement CI/CD pipelines to automate deployments and deliveries</b>, increasing agility in development cycles and ensuring production stability.",
-          "<b>Actively participate in all stages of the development and maintenance cycle</b>, ensuring high-quality code and improving application performance through best practices and clean code principles."
+          "<b>Design and build modular and scalable architectures</b>, developing RESTful APIs connected to SQL and NoSQL databases, integrating AI solutions, geo-location, multimedia processing, payment gateways, and authentication.",
+          "<b>Develop responsive and accessible web interfaces</b> using React.js, applying usability and performance principles, and creating reusable components to enhance user experience and simplify code maintenance.",
+          "<b>Develop robust backend applications</b> with Node.js and Django, managing business logic, security, and data persistence using serverless backend tools.",
+          "<b>Implement cloud solutions</b> with AWS and Firebase services, setting up automated deployment environments with CI/CD pipelines to enable fast and reliable deliveries.",
+          "<b>Lead fullstack solution development</b>, working closely with designers, developers, and creatives to define features, optimize processes, and ensure the delivery of scalable, efficient, and high-quality products."
         ]
       },
       "tigo": {
